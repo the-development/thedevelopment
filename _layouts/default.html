@@ -7,10 +7,10 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="{{site.baseurl}}/css/syntax.css">
+        <link rel="stylesheet" href="/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+        <link rel="stylesheet" href="/css/main.css">
 
     </head>
     <body>
@@ -18,11 +18,11 @@
         <div class="site">
           <div class="sidebar">
             <div class="header">
-              <h1 class="title"><a href="http://thedevelopment.co"><img id="logo" src="{{site.baseurl}}/images/logo.png"></a></h1>
+              <h1 class="title"><a href="http://thedevelopment.co"><img id="logo" src="/images/logo.png"></a></h1>
               <span class="tagline">How the Internet built their websites</span>
               <ul class="posts">
                 {% for post in site.posts %}
-                  <li><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                  <li><a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
                   <span class="post-date">{{ post.date | date_to_string }}</span></li>
                 {% endfor %}
               </ul>
@@ -32,8 +32,8 @@
                 <span>
                   <!-- Coming soon
                   <a href="https://twitter.com/_thedevelopment">Archives</a> <span class="separator">&bull;</span>-->
-                  <a href="{{ site.baseurl }}/about">About</a> <span class="separator">&bull;</span>
-                  <a href="{{site.baseurl}}/about#interviews">Request interview</a> <span class="separator">&bull;</span>
+                  <a href="/about">About</a> <span class="separator">&bull;</span>
+                  <a href="/about#interviews">Request interview</a> <span class="separator">&bull;</span>
                   <a href="https://twitter.com/_thedevelopment">Twitter</a>
                 </span>
               </div>
