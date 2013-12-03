@@ -78,7 +78,6 @@ a:hover {
   width: 100%;
   display: table;
   font-size: 1em;;
-  margin: 1em;
   line-height: 1.25em;
 }
 
@@ -216,7 +215,7 @@ a:hover {
 
 .sidebar,
 .content {
-  padding: 22px;
+  padding: 35px;
   display: table-cell;
   vertical-align: top;
 }
@@ -227,7 +226,7 @@ a:hover {
 }
 
 .content {
-  padding-top: 0px;
+  padding-top: 1em;
 }
 
 .post-title {
