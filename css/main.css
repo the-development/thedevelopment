@@ -166,12 +166,14 @@ a:hover {
   clear: both;
 }
 
-.post a {
-  border-bottom: 1px dashed #0099ff;
+.post a,
+#about a {
+  border-bottom: 1px dashed #555;
 }
 
 .post a:hover
-.post-info a:hover {
+.post-info a:hover,
+#about a:hover {
   border: none;
 }
 
