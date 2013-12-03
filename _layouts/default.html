@@ -23,7 +23,9 @@
             <div class="header">
               <h1 class="title"><a href="http://thedevelopment.co"><img id="logo" src="/images/logo.png"></a></h1>
               <span class="tagline">A website about websites</span>
-              <ul class="posts">
+            </div>
+            <div class="posts">
+              <ul class="posts-list">
                 {% for post in site.posts %}
                   <li><a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
                   <span class="post-date">{{ post.date | date_to_string }}</span></li>

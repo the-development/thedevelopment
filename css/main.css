@@ -55,11 +55,13 @@ a:hover {
 }
 
 .posts {
-  list-style-type: none;
   margin-bottom: 2em;
 }
 
-.posts li {
+.posts-list {
+  list-style-type: none;
+}
+.posts-list li {
   line-height: 1.75em;
 }
 
@@ -85,6 +87,7 @@ a:hover {
 .title {
   display: inline-block;
   font-weight: 300;
+  text-align: center;
 }
 
 .tagline {
@@ -233,6 +236,10 @@ a:hover {
   float: left;
   width: 25%;
   border-right: 1px solid #ececec;
+}
+
+.header {
+  text-align: center;
 }
 
 .content {
