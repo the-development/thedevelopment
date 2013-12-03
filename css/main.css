@@ -167,6 +167,7 @@ a:hover {
 }
 
 .post a,
+.page a,
 #about a {
   border-bottom: 1px dashed #555;
 }
@@ -184,8 +185,15 @@ a:hover {
   padding: 0 .4em;
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
+.post p,
+.page p {
+  margin-bottom: 1.25em;
+}
+
+.post ul, .post ol,
+.page ul, .page ol {
+  margin-left: 2.35em;
+  margin-bottom: 1.25em;
 }
 
 .post code {
@@ -218,6 +226,7 @@ a:hover {
 .sidebar,
 .content {
   padding: 35px;
+  padding-top: 2.5em;
   display: table-cell;
   vertical-align: top;
 }
@@ -228,7 +237,7 @@ a:hover {
 }
 
 .content {
-  padding-top: 1em;
+  padding-top: 2.5em;
 }
 
 .post-title {
@@ -248,6 +257,7 @@ a:hover {
 /* About page
 /*
 /*****************************************************************************/
+
 #about p {
   margin-top: 0.75em;
 }
