@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="author" content="Jeff Martin" />
+        <meta name="description" content="The Development: A Website about Websites" />
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
@@ -12,6 +14,7 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <link href='http://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>
     </head>
     <body>
 
@@ -19,7 +22,7 @@
           <div class="sidebar">
             <div class="header">
               <h1 class="title"><a href="http://thedevelopment.co"><img id="logo" src="/images/logo.png"></a></h1>
-              <span class="tagline">How the Internet built their websites</span>
+              <span class="tagline">A website about websites</span>
               <ul class="posts">
                 {% for post in site.posts %}
                   <li><a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
