@@ -22,7 +22,7 @@
               <span class="tagline">How the Internet built their websites</span>
               <ul class="posts">
                 {% for post in site.posts %}
-                  <li><a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+                  <li><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                   <span class="post-date">{{ post.date | date_to_string }}</span></li>
                 {% endfor %}
               </ul>
@@ -31,10 +31,10 @@
               <div class="contact">
                 <span>
                   <!-- Coming soon
-                  <a href="https://twitter.com/yourusername">Archives</a> <span class="separator">&bull;</span>-->
-                  <a href="/about">About</a> <span class="separator">&bull;</span>
+                  <a href="https://twitter.com/_thedevelopment">Archives</a> <span class="separator">&bull;</span>-->
+                  <a href="{{ site.baseurl }} /about">About</a> <span class="separator">&bull;</span>
                   <a href="{{site.baseurl}}/about#interviews">Request interview</a> <span class="separator">&bull;</span>
-                  <a href="https://twitter.com/yourusername">Twitter</a>
+                  <a href="https://twitter.com/_thedevelopment">Twitter</a>
                 </span>
               </div>
             </div>
