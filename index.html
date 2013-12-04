@@ -14,7 +14,7 @@ title: The Development
       <img id="dp" src="/images/dps/{{ post.img }}.jpg">
     </div>
     <div id="info-container">
-      <h1 id="post-title">{{ post.title }}</h1>
+      <h1 id="post-title"><span class="bold">{{ post.firstname }}</span><span class="thin">{{ post.lastname }}</span> <span id="post-title-suffix">{{ post.titlesuffix }}</span></h1>
       <div id="info-links">
         <a href="http://twitter.com/{{ post.twitter }}" id="twitter-url">@{{ post.twitter }}</a> <span class="separator">&bull;</span>
         <a href="{{ post.website }}" id="website-url">{{ post.website }}</a> <span class="separator">&bull;</span>

@@ -10,7 +10,7 @@ layout: default
       <img id="dp" src="/images/dps/{{ page.img }}.jpg">
     </div>
     <div id="info-container">
-      <h1 id="post-title">{{ page.title }}</h1>
+      <h1 id="post-title"><span class="bold">{{ page.firstname }}</span><span class="thin">{{ page.lastname }}</span> <span id="post-title-suffix">{{ page.titlesuffix }}</span></h1>
       <div id="info-links">
         <a href="http://twitter.com/{{ page.twitter }}" id="twitter-url" class="post-info">@{{ page.twitter }}</a> <span class="separator">&bull;</span>
         <a href="{{ page.website }}" id="website-url" class="post-info">{{ page.website }}</a> <span class="separator">&bull;</span>

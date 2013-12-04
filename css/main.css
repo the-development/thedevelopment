@@ -156,9 +156,23 @@ a:hover {
 }
 
 #post-title {
-  color: #333;
-  margin-bottom: 0.45em;
-  font-size: 2.1em;
+  color: #555;
+  margin-bottom: 0.25em;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+#post-title-suffix {
+  color: #555;
+  font-size: 0.65em;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.thin,
+#info-links {
   font-weight: 400;
 }
 

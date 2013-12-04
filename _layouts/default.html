@@ -30,7 +30,7 @@
             <ul class="posts-list">
               {% for post in site.posts %}
                 <li>
-                  <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+                  <a class="post-title" href="{{ post.url }}">{{ post.firstname }} {{ post.lastname }} {{ post.titlesuffix }}</a>
                   <span class="post-date">{{ post.date | date_to_string }}</span>
                 </li>
               {% endfor %}

@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Jeff Martin and his website"
+firstname: Jeff
+lastname: Martin
+titlesuffix:  and his website
 img: jeffmartin
 twitter: jeffxmn
 website: http://jeffreymartin.ca

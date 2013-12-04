@@ -1,6 +1,8 @@
 ---
 layout: post
-title:  "Victor Mak and his website"
+firstname: Victor
+lastname: Mak
+titlesuffix:  and his website
 img: victormak
 twitter: vicmakcy
 website: http://victormakcy.com
