@@ -40,6 +40,7 @@
   }
 
   .sidebar {
+    transition: 1s;
     margin-left: -100%;
     z-index: 3;
   }
