@@ -38,9 +38,17 @@
   }
 }
 
-@media (max-width:835px) {
+@media (max-width:640px) {
   #logo {
-    width: 120px;
+    width: 100px;
+  }
+
+  #post-title {
+    font-size: 1.35em;
+  }
+
+  #info-links {
+    font-size: 0.85em;
   }
 
   .sidebar {
