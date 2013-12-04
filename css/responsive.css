@@ -51,8 +51,8 @@
     font-size: 0.8em;
   }
 
-  #info-links *, .footer * {
-    display: inline-block;
+  .post-info, .footer-link {
+    display: block;
   }
 
   .separator {
