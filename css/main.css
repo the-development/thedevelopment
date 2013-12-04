@@ -318,9 +318,11 @@ a:hover {
   padding-top: 3em;
 }
 
-#interview-questions {
+#interview-questions,
+#meta-info {
   margin-left: 75px;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 #team {
