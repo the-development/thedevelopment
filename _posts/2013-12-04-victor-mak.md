@@ -3,6 +3,7 @@ layout: post
 firstname: Victor
 lastname: Mak
 titlesuffix:  and his website
+position: Web developer & Co-founder of The Development
 img: victormak
 twitter: vicmakcy
 website: http://victormakcy.com

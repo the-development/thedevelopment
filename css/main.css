@@ -167,6 +167,14 @@ a:hover {
   font-size: 0.5em;
 }
 
+#position {
+  color: #777;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  padding-bottom: 0.35em;
+}
+
 .bold {
   font-weight: 700;
 }
