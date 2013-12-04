@@ -35,6 +35,10 @@
 }
 
 @media (max-width:640px) {
+  #logo {
+    max-width: 95px;
+  }
+
   #post-title {
     font-size: 1.25em;
   }
