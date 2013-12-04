@@ -234,6 +234,7 @@ a:hover {
   vertical-align: top;
   height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .sidebar {
