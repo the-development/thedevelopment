@@ -18,13 +18,13 @@ html, body {
 body {
   color: #333;
   background-color: #fcfcfc;
-  font-family: 'Helvetica Neue', 'Raleway', Arial, sans-serif;
-  font-weight: 300;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 400;
   overflow: hidden;
 }
 
 strong {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 a {
@@ -82,7 +82,6 @@ a:hover {
 
 .title {
   display: inline-block;
-  font-weight: 300;
   text-align: center;
 }
 
@@ -167,7 +166,7 @@ a:hover {
 }
 
 .bold {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .thin {
