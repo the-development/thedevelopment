@@ -18,7 +18,7 @@ title: The Development
       <div id="info-links">
         <a href="http://twitter.com/{{ post.twitter }}" id="twitter-url">@{{ post.twitter }}</a> <span class="separator">&bull;</span>
         <a href="{{ post.website }}" id="website-url">{{ post.website }}</a> <span class="separator">&bull;</span>
-        <span id="date">As of: {{ post.date | date_to_string }}</a>
+        <span id="date">{{ post.date | date_to_string }}</a>
       </div>
     </div>
   </div>

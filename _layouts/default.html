@@ -30,8 +30,10 @@
             <div class="posts">
               <ul class="posts-list">
                 {% for post in site.posts %}
-                  <li><a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
-                  <span class="post-date">{{ post.date | date_to_string }}</span></li>
+                  <li>
+                    <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+                    <span class="post-date">{{ post.date | date_to_string }}</span>
+                  </li>
                 {% endfor %}
               </ul>
             </div>
@@ -41,9 +43,9 @@
                   <!-- Coming soon
                   <a href="https://twitter.com/_thedevelopment">Archives</a> <span class="separator">&bull;</span>-->
                   <a href="/about" class="footer-link">About</a> <span class="separator">&bull;</span>
-                  <a href="/about#interviews" class="footer-link">Can I be interviewed?</a> <span class="separator">&bull;</span>
+                  <a href="/about#interviews" class="footer-link">Request an interview</a> <span class="separator">&bull;</span>
                   <a href="https://twitter.com/_thedevelopment" class="footer-link">Twitter</a><br />
-                  <span class="footer-link">License by <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</a></span>
+                  <a href="http://creativecommons.org/licenses/by-sa/4.0/" class="footer-link">Creative Commons Attribution-ShareAlike License</a>
                 </span>
               </div>
             </div>

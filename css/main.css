@@ -65,14 +65,15 @@ a:hover {
 .posts-list {
   list-style-type: none;
 }
+
 .posts-list li {
   line-height: 1.75em;
 }
 
 .posts span {
-  color: #aaa;
+  color: #888;
   font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+  font-size: 0.8em;
 }
 
 /*****************************************************************************/
@@ -99,7 +100,7 @@ a:hover {
   color: #777;
   text-align: center;
   margin-top: 0.5em;
-  display: inline-block;
+  display: block;
 
 }
 
@@ -192,6 +193,7 @@ a:hover {
 .post p,
 .page p {
   margin-bottom: 1.25em;
+  text-align: justify;
 }
 
 .post ul, .post ol,
@@ -229,8 +231,6 @@ a:hover {
 
 .sidebar,
 .content {
-  padding-left: 35px;
-  padding-right: 35px;
   vertical-align: top;
   height: 100%;
   overflow-y: auto;
@@ -240,20 +240,31 @@ a:hover {
 .sidebar {
   float: left;
   width: 20%;
+  padding-left: 1.75em;
+  padding-right: 2.25em;
   border-right: 1px solid #ececec;
+}
+
+.content {
+  padding-left: 2em;
+  padding-right: 8em;
 }
 
 .header {
   text-align: center;
-  padding-top: 3.25em;
+  padding-top: 3em;
 }
 
 #post-info {
-  padding-top: 1.75em;
+  padding-top: 1.25em;
 }
 
 .sidebar a {
   color: #555;
+}
+
+.sidebar a:hover {
+  color: #777;
 }
 
 .post-title {

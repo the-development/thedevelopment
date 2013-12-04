@@ -14,7 +14,7 @@ layout: default
       <div id="info-links">
         <a href="http://twitter.com/{{ page.twitter }}" id="twitter-url" class="post-info">@{{ page.twitter }}</a> <span class="separator">&bull;</span>
         <a href="{{ page.website }}" id="website-url" class="post-info">{{ page.website }}</a> <span class="separator">&bull;</span>
-        <span id="date" class="post-info">As of: {{ page.date | date_to_string }}</a>
+        <span id="date" class="post-info">{{ page.date | date_to_string }}</a>
       </div>
     </div>
   </div>
