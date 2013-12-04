@@ -21,6 +21,10 @@
     width: 200px;
   }
 
+  #post-title {
+    font-size: 1.7em;
+  }
+
   .header {
     padding-top: 3.85em;
   }
@@ -36,7 +40,7 @@
 
 @media (max-width:835px) {
   #logo {
-    width: 150px;
+    width: 120px;
   }
 
   .sidebar {
