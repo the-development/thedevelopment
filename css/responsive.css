@@ -40,15 +40,23 @@
 
 @media (max-width:640px) {
   #logo {
-    width: 100px;
+    width: 90px;
   }
 
   #post-title {
-    font-size: 1.35em;
+    font-size: 1.25em;
   }
 
   #info-links {
-    font-size: 0.85em;
+    font-size: 0.8em;
+  }
+
+  #info-links *, .footer * {
+    display: inline-block;
+  }
+
+  .separators {
+    display: none;
   }
 
   .sidebar {
