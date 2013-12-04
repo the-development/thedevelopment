@@ -261,7 +261,7 @@ a:hover {
 }
 
 .post-date {
-  display: inline-block;
+  display: block;
 }
 
 #sidebar-button {
