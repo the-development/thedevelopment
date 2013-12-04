@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How Victor Mak built his website"
+title:  "Victor Mak and his website"
 img: victormak
 twitter: vicmakcy
 website: http://victormakcy.com

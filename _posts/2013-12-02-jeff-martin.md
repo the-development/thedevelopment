@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How Jeff Martin built his website"
+title:  "Jeff Martin and his website"
 img: jeffmartin
 twitter: jeffxmn
 website: http://jeffreymartin.ca
