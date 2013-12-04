@@ -40,7 +40,7 @@
 
 @media (max-width:640px) {
   #logo {
-    width: 90px;
+    display: none;
   }
 
   #post-title {
