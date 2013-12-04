@@ -298,6 +298,7 @@ a:hover {
 
 #about p {
   margin-top: 0.75em;
+  text-align: justify;
 }
 
 .about-section {
