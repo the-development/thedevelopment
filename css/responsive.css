@@ -1,8 +1,4 @@
 @media (max-width:1309px) {
-  #logo {
-    width: 250px;
-  }
-
   .header {
     padding-top: 3.45em;
   }
@@ -17,10 +13,6 @@
 }
 
 @media (max-width:1081px) {
-  #logo {
-    width: 200px;
-  }
-
   #post-title {
     font-size: 1.7em;
   }
@@ -43,10 +35,6 @@
 }
 
 @media (max-width:640px) {
-  #logo {
-    display: none;
-  }
-
   #post-title {
     font-size: 1.25em;
   }

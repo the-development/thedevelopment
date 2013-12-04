@@ -17,7 +17,7 @@ html, body {
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #f1f1f1;
   font-family: 'Helvetica Neue', 'Roboto', Arial, sans-serif;
   font-weight: 300;
   overflow: hidden;
@@ -52,11 +52,7 @@ a:hover {
 /*
 /*****************************************************************************/
 #logo {
-  width: 300px;
-}
-
-.img-rounded {
-  border-radius: 50%;
+  max-width: 128px;
 }
 
 .posts {
@@ -107,14 +103,14 @@ a:hover {
 }
 
 .posts {
-  border-top: 1px solid #ececec;
+  border-top: 1px solid #e3e3e3;
   margin-top: 1em;
   padding-top: 2em;
 }
 
 .footer {
   font-size: 0.8em;
-  border-top: 1px solid #ececec;
+  border-top: 1px solid #e3e3e3;
   margin-top: 2em;
   padding-top: 0.5em;
   overflow: hidden;
@@ -151,7 +147,8 @@ a:hover {
 }
 
 #dp {
-  max-width: 125px;
+  max-width: 128px;
+  border: 1px solid #5e5e5e;
 }
 
 #dp-container {
@@ -244,7 +241,7 @@ a:hover {
   width: 20%;
   padding-left: 1.75em;
   padding-right: 2.25em;
-  border-right: 1px solid #ececec;
+  border-right: 1px solid #e3e3e3;
 }
 
 .content {
@@ -254,7 +251,7 @@ a:hover {
 
 .header {
   text-align: center;
-  padding-top: 3em;
+  padding-top: 1.25em;
 }
 
 #post-info {
