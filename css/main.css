@@ -19,6 +19,7 @@ body {
   background-color: #fafafa;
   font-family: 'Helvetica Neue', 'Roboto', Arial, sans-serif;
   font-weight: 300;
+  overflow: hidden;
 }
 
 strong {
@@ -28,8 +29,11 @@ strong {
 a {
   color: #8085C1;
   text-decoration: none;
-  outline: none;
   border: none;
+}
+
+a img {
+  outline: none;
 }
 
 a:hover {
@@ -225,14 +229,15 @@ a:hover {
 
 .sidebar,
 .content {
-  padding: 35px;
-  padding-top: 3.85em;
+  padding-left: 35px;
+  padding-right: 35px;
   vertical-align: top;
   height: 100%;
   overflow-y: auto;
 }
 
 .sidebar {
+  transition: 1s;
   float: left;
   width: 20%;
   border-right: 1px solid #ececec;
@@ -240,10 +245,11 @@ a:hover {
 
 .header {
   text-align: center;
+  padding-top: 3.25em;
 }
 
-.content {
-  padding-top: 2.5em;
+#post-info {
+  padding-top: 1.75em;
 }
 
 .sidebar a {
@@ -256,6 +262,14 @@ a:hover {
 
 .post-date {
   display: inline-block;
+}
+
+#sidebar-button {
+  height: intrinsic;
+  width: intrinsic;
+  cursor: pointer;
+  display: none;
+  padding: 25px 5px 10px 5px;
 }
 
 /*****************************************************************************/

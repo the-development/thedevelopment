@@ -1,5 +1,65 @@
-@media (max-width:1090px) {
-  .sidebar {
-    display: none;
+@media (max-width:1309px) {
+  #logo {
+    width: 250px;
   }
+
+  .header {
+    padding-top: 3.45em;
+  }
+
+  .posts {
+    font-size: 0.9em;
+  }
+
+  .footer {
+    font-size: 0.75em;
+  }
+}
+
+@media (max-width:1081px) {
+  #logo {
+    width: 200px;
+  }
+
+  .header {
+    padding-top: 3.85em;
+  }
+
+  .posts {
+    font-size: 0.75em;
+  }
+
+  .footer {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width:835px) {
+  #logo {
+    width: 150px;
+  }
+
+  .sidebar {
+    margin-left: -100%;
+    z-index: 3;
+  }
+
+  .content {
+    z-index: 1;
+  }
+
+  #sidebar-button {
+    display: block;
+    z-index: 2;
+  }
+}
+
+/*****************************************************************************/
+/*
+/* Sidebar responsive animations
+/*
+/*****************************************************************************/
+
+.slideIn {
+  margin-left: 0%;
 }
