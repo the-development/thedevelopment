@@ -23,7 +23,7 @@ Aside from coding I have interest in things ranging from startups to photography
 
 The primary purpose of my site was to have a place for potential employers to see my side projects and get to know me better. Being in the co-op program at waterloo I would go through plenty of application and interview rounds, almost as frequent as every four months. I simply wanted a site that could help describe who I was through the web and get some bonus points for having a side project ;).
 
-Version 1.0 of the site had me playing with multiple pages, a nav bar that stuck to the left and my poor attempt at a responsive design. It was my first stab at creating a website and looking back, it wasn’t as bad as I thought. 
+Version 1.0 of the site had me playing with multiple pages, a nav bar that stuck to the left and my poor attempt at a responsive design. It was my first stab at creating a website and looking back, it wasn’t as bad as I thought.
 
 Version 2.0 is what I would call the current site, be-it there has been plenty of revisions since the initial update. This time I wanted a much more minimalistic design, and honestly, what’s more minimalistic than a solid colour background, simple typeface and a few text. The colour-scheme is based on one of my favourite colours (blue), which naturally compliments many colour schemes.
 
