@@ -68,7 +68,7 @@
   .tagline,
   #footer-license,
   #info-links .separator,
-  .separator {
+  .footer .separator {
     display: none;
   }
 
