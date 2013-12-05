@@ -92,14 +92,14 @@ a:hover {
 }
 
 .posts {
-  border-top: 1px solid #e3e3e3;
+  border-top: 1px solid #e7e7e7;
   margin-top: 1em;
   padding-top: 2em;
 }
 
 .footer {
   font-size: 0.85em;
-  border-top: 1px solid #e3e3e3;
+  border-top: 1px solid #e7e7e7;
   margin-top: 2em;
   padding-top: 0.5em;
   overflow: hidden;
@@ -255,12 +255,12 @@ a:hover {
   float: left;
   width: 15%;
   padding-left: 11em;
-  padding-right: 2.25em;
-  border-right: 1px solid #e3e3e3;
+  padding-right: 2.125em;
+  border-right: 1px solid #e7e7e7;
 }
 
 .content {
-  padding-left: 2em;
+  padding-left: 2.125em;
   padding-right: 15em;
 }
 
@@ -311,7 +311,7 @@ a:hover {
 .colophon {
   margin-top: 1.5em;
   margin-bottom: 1.45em;
-  border-top: 1px dotted #e3e3e3;
+  border-top: 1px dotted #e7e7e7;
 }
 
 .colophon p {
