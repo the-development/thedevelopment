@@ -23,7 +23,7 @@ I'm a huge fan of minimal design. I built my website a little over a year ago, a
 
 ## What part of your website is your favourite, and why?
 
-The animations! The fade-in-from-left animations are thanks to an excellent library by [Dan Eden](http://daneden.me). I've been wanting to do something similar for a while, but I couldn't get started (for obvious reasons of procrastination). Luckily, I stumbled into Dan Eden's library on a [Medium post](https://medium.com/design-ux/799d16952a56) (by a writer *also* named Dan... whoa), and when I saw he open sourced the code on [Github](http://github.com/daneden/animate.css), I instantly fell head over heels for it. I forked it with hopes to contribute to it, and you should too!
+The animations! The fade-in-from-left animations are thanks to an excellent library by [Dan Eden](http://daneden.me). I've been wanting to do something similar for a while, but I couldn't get started (for obvious reasons of procrastination). Luckily, I stumbled into Dan Eden's library on a [Medium post](https://medium.com/design-ux/799d16952a56) (by a writer *also* named Dan... whoa), and when I saw he open sourced the code on [GitHub](http://github.com/daneden/animate.css), I instantly fell head over heels for it. I forked it with hopes to contribute to it, and you should too!
 
 ## Technologies, languages, frameworks, or libraries?
 

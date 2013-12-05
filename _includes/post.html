@@ -1,0 +1,29 @@
+<div class="content" id="home">
+  <div id="sidebar-button">
+    <img src="/images/sidebar-button.png">
+  </div>
+  <div id="post-info">
+    <div id="dp-container">
+      <img id="dp" src="/images/dps/{{ page.img }}.jpg">
+    </div>
+    <div id="info-container">
+      <h1 id="post-title"><span class="bold">{{ page.firstname }}</span><span class="thin">{{ page.lastname }}</span> <span id="post-title-suffix">{{ page.titlesuffix }}</span></h1>
+      <div id="info-links">
+        <span id="position">{{ page.position }}</span>
+        <a href="http://twitter.com/{{ page.twitter }}" id="twitter-url" class="post-info">@{{ page.twitter }}</a> <span class="separator">&bull;</span>
+        <a href="{{ page.website }}" id="website-url" class="post-info">{{ page.website }}</a> <span class="separator">&bull;</span>
+        <span id="date" class="post-info">{{ page.date | date_to_string }}</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="post">
+    {{ content }}
+  </div>
+  <div class="colophon">
+    <p>
+      <span id="gist">An interview on a website about a website</span> <span class="separator">&bull;</span>
+      <span id="publish-date">Published on {{ page.date | date_to_string }}</span>
+    </p>
+  </div>
+</div>

@@ -181,15 +181,13 @@ a:hover {
   clear: both;
 }
 
-.post h2,
-.page h2 {
+.post h2 {
   margin-top: 1.25em;
   margin-left: -0.5em;
   margin-bottom: 1.25em;
 }
 
 .post a,
-.page a,
 #about a {
   border-bottom: 1px dashed #8085C1;
 }
@@ -207,14 +205,12 @@ a:hover {
   padding: 0 .4em;
 }
 
-.post p,
-.page p {
+.post p {
   margin-bottom: 1.45em;
   text-align: justify;
 }
 
-.post ul, .post ol,
-.page ul, .page ol {
+.post ul, .post ol {
   margin-left: 2.35em;
   margin-bottom: 1.25em;
 }
