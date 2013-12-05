@@ -251,7 +251,7 @@ a:hover {
   vertical-align: top;
   height: 100%;
   -webkit-overflow-scrolling: touch;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
 }
 
