@@ -73,7 +73,6 @@ a:hover {
 .site {
   height: 100%;
   width: 100%;
-  font-size: 1em;
   line-height: 1.25em;
 }
 
@@ -99,7 +98,7 @@ a:hover {
 }
 
 .footer {
-  font-size: 0.75em;
+  font-size: 0.85em;
   border-top: 1px solid #e3e3e3;
   margin-top: 2em;
   padding-top: 0.5em;
@@ -281,12 +280,13 @@ a:hover {
 
 .post-title {
   font-weight: 600;
+  font-size: 1.1em;
 }
 
 .post-date {
   color: #888;
   font-family: Monaco, "Courier New", monospace;
-  font-size: 0.75em;
+  font-size: 0.85em;
   display: block;
 }
 
