@@ -126,7 +126,7 @@ a:hover {
 /*****************************************************************************/
 
 #post-info {
-  padding-top: 1.25em;
+  padding-top: 2.5em;
   margin-bottom: 2em;
   display: table;
 }
@@ -139,7 +139,7 @@ a:hover {
 
 #dp {
   max-width: 128px;
-  border: 1px solid #5e5e5e;
+  border: 1px solid #5c5c5c;
 }
 
 #dp-container {
@@ -256,7 +256,7 @@ a:hover {
 .sidebar {
   float: left;
   width: 15%;
-  padding-left: 9em;
+  padding-left: 11em;
   padding-right: 2.25em;
   border-right: 1px solid #e3e3e3;
 }
@@ -268,7 +268,7 @@ a:hover {
 
 .header {
   text-align: center;
-  padding-top: 1.25em;
+  padding-top: 2.5em;
 }
 
 .sidebar a {
