@@ -137,7 +137,7 @@ a:hover {
 }
 
 #dp {
-  max-width: 128px;
+  max-width: 256px;
   border: 1px solid #5c5c5c;
 }
 
@@ -181,9 +181,11 @@ a:hover {
   clear: both;
 }
 
-.post p strong,
-.page p strong {
+.post h2,
+.page h2 {
+  margin-top: 1.25em;
   margin-left: -0.5em;
+  margin-bottom: 1.25em;
 }
 
 .post a,
@@ -248,7 +250,8 @@ a:hover {
 .content {
   vertical-align: top;
   height: 100%;
-  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 
@@ -305,6 +308,24 @@ a:hover {
 
 /*****************************************************************************/
 /*
+/* Colophon
+/*
+/*****************************************************************************/
+
+.colophon {
+  margin-top: 1.5em;
+  margin-bottom: 1.45em;
+  border-top: 1px dotted #e3e3e3;
+}
+
+.colophon p {
+  margin-top: 1.25em;
+  font-size: 0.85em;
+  color: #777;
+}
+
+/*****************************************************************************/
+/*
 /* About page
 /*
 /*****************************************************************************/
@@ -315,7 +336,7 @@ a:hover {
 }
 
 .about-section {
-  padding-top: 3em;
+  padding-top: 2.75em;
 }
 
 #interview-questions,
