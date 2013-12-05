@@ -1,4 +1,8 @@
 @media (max-width:1309px) {
+  #dp {
+    max-width: 190px;
+  }
+
   .header {
     padding-top: 3.45em;
   }
@@ -14,7 +18,7 @@
 
 @media (max-width:1090px) {
   #post-title {
-    font-size: 1.7em;
+    font-size: 2.5em;
   }
 
   .header {
@@ -22,19 +26,19 @@
   }
 
   .posts {
-    font-size: 0.75em;
+    font-size: 0.85em;
   }
 
   .sidebar {
-    padding-left: 5em;
+    padding-left: 4em;
   }
 
   .content {
-    padding-right: 5em;
+    padding-right: 7em;
   }
 
   .footer {
-    font-size: 0.8em;
+    font-size: 0.85em;
   }
 }
 
@@ -51,11 +55,15 @@
   }
 
   #post-title {
-    font-size: 1.25em;
+    font-size: 2em;
   }
 
   #info-links {
-    font-size: 0.75em;
+    font-size: 0.8em;
+  }
+
+  .footer {
+    text-align: left;
   }
 
   #post-title-suffix,
