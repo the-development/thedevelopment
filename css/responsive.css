@@ -46,6 +46,10 @@
     max-width: 75px;
   }
 
+  #dp {
+    max-width: 128px;
+  }
+
   #post-title {
     font-size: 1.25em;
   }
