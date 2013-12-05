@@ -36,5 +36,5 @@ I used JQuery in past versions of my website, but as of this version, I'm not (!
 
 ## Any upcoming changes we should look out for?
 
-More minimalism. I already have frequent thoughts, dreams, and nightmares, about what I would like the next revision to look like. At this rate, it's just a matter of time when I'll break down, open Coda 2, and do a CMD+A, delete. I wouldn't be surprised if I switched to [Jekyll](http://jekyllrb.com) too, which I'm already using for *this* website. It's a great library so far, and goes perfectly well if you already host on GitHub.
+More minimalism. I already have frequent thoughts, dreams, and nightmares, about what I would like the next revision to look like. At this rate, it's just a matter of time when I'll break down, open Coda 2, and do a CMD+A, delete. I wouldn't be surprised if I switched to [Jekyll](http://jekyllrb.com) too, which I'm already using for this website. It's a great library so far, and goes perfectly well if you already host on GitHub.
 
