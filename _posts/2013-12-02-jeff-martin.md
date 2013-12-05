@@ -3,7 +3,7 @@ layout: post
 firstname: Jeff
 lastname: Martin
 titlesuffix:  and his website
-position: Web developer
+position: Web developer and designer
 img: jeffmartin
 twitter: jeffxmn
 website: http://jeffreymartin.ca
