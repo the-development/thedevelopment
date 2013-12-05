@@ -24,11 +24,6 @@ body {
   overflow: hidden;
 }
 
-strong {
-  font-weight: 700;
-  margin-left: -0.5em;
-}
-
 a {
   color: #8085C1;
   text-decoration: none;
@@ -185,6 +180,14 @@ a:hover {
 
 .post {
   clear: both;
+  font-family: 'Droid Serif', serif;
+}
+
+.post p strong {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-left: -0.5em;
 }
 
 .post a,
