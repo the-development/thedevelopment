@@ -180,13 +180,11 @@ a:hover {
 
 .post {
   clear: both;
-  font-family: 'Merriweather', serif;
 }
 
 .post p strong {
-  font-family: 'Raleway', Arial, sans-serif;
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 1.05em;
   margin-left: -0.5em;
 }
 
