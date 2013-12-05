@@ -25,6 +25,10 @@
     font-size: 0.75em;
   }
 
+  .sidebar {
+    padding-left: 1.75em;
+  }
+
   .content {
     padding-right: 5em;
   }
