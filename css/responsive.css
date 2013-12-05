@@ -73,6 +73,7 @@
     margin-left: -100%;
     z-index: 3;
     width: 35%;
+    padding-left: 1.75em;
   }
 
   .content {
