@@ -3,7 +3,7 @@ layout: post
 firstname: Jeff
 lastname: Martin
 titlesuffix:  and his website
-position: Web developer, Co-founder of The Development
+position: Web developer
 img: jeffmartin
 twitter: jeffxmn
 website: http://jeffreymartin.ca
