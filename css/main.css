@@ -182,8 +182,8 @@ a:hover {
   clear: both;
 }
 
-.post p strong {
-  font-weight: 700;
+.post p strong,
+.page p strong {
   margin-left: -0.5em;
 }
 
