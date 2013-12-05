@@ -52,6 +52,14 @@ a:hover {
   max-width: 128px;
 }
 
+.posts a {
+  color: #444;
+}
+
+.posts a:hover {
+  color: #777;
+}
+
 .posts {
   margin-bottom: 2em;
 }
@@ -101,21 +109,10 @@ a:hover {
   font-size: 0.85em;
   border-top: 1px solid #e7e7e7;
   margin-top: 2em;
-  padding-top: 0.5em;
+  padding-top: 1.25em;
   overflow: hidden;
-}
-
-.footer .contact {
   float: center;
   text-align: center;
-}
-
-.footer .contact a {
-  color: #8085C1;
-}
-
-.footer .contact a:hover {
-  color: #555;
 }
 
 /*****************************************************************************/
@@ -267,14 +264,6 @@ a:hover {
 .header {
   text-align: center;
   padding-top: 2.5em;
-}
-
-.sidebar a {
-  color: #444;
-}
-
-.sidebar a:hover {
-  color: #777;
 }
 
 .post-title {
