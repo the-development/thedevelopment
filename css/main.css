@@ -18,9 +18,9 @@ html, body {
 body {
   color: #333;
   background-color: #fcfcfc;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
   font-weight: 400;
-  font-size: 0.85em;
+  font-size: 0.95em;
   overflow: hidden;
 }
 
@@ -95,7 +95,6 @@ a:hover {
   text-align: center;
   margin-top: 0.5em;
   display: block;
-  font-weight: 400;
 
 }
 
@@ -106,7 +105,7 @@ a:hover {
 }
 
 .footer {
-  font-size: 0.85em;
+  font-size: 0.95em;
   border-top: 1px solid #e7e7e7;
   margin-top: 2em;
   padding-top: 1.25em;
@@ -264,6 +263,7 @@ a:hover {
 .header {
   text-align: center;
   padding-top: 2.5em;
+  font-size: 1.1em;
 }
 
 .post-title {
