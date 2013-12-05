@@ -4,7 +4,7 @@ firstname: Jeff
 lastname: Martin
 titlesuffix:  and his website
 position: Web developer and designer
-img: jeffmartin
+img: jeffmartin.jpg
 twitter: jeffxmn
 website: http://jeffreymartin.ca
 date:   2013-12-02 17:44:20

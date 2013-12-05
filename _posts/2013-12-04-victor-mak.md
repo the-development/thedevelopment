@@ -4,7 +4,7 @@ firstname: Victor
 lastname: Mak
 titlesuffix:  and his website
 position: Full-stack web developer and designer
-img: victormak
+img: victormak.jpg
 twitter: vicmakcy
 website: http://victormakcy.com
 date:   2013-12-04 10:46:00
