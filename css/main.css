@@ -60,16 +60,15 @@ a:hover {
   color: #777;
 }
 
-.posts {
-  margin-bottom: 2em;
-}
-
 .posts-list {
   list-style-type: none;
 }
 
 .posts-list li {
+  text-align: center;
   line-height: 1.75em;
+  padding-top: 0.15em;
+
 }
 
 /*****************************************************************************/
@@ -101,7 +100,8 @@ a:hover {
 .posts {
   border-top: 1px solid #e7e7e7;
   margin-top: 1em;
-  padding-top: 2em;
+  padding-bottom: 0.5em;
+  padding-top: 1.5em;
 }
 
 .footer {
@@ -154,7 +154,7 @@ a:hover {
 #position {
   color: #777;
   font-weight: 600;
-  font-size: 1.25em;
+  font-size: 1.15em;
   text-transform: uppercase;
   display: block;
   padding-top: 0.25em;
@@ -278,6 +278,8 @@ a:hover {
   color: #888;
   font-family: Monaco, "Courier New", monospace;
   font-weight: 600;
+  font-size: 0.8em;
+  display: block;
 }
 
 #sidebar-button {

@@ -32,8 +32,10 @@
           <ul class="posts-list">
             {% for post in site.posts %}
               <li>
-                <span class="post-date">{{ post.date | date_to_string }}</span>
-                <a class="post-title" href="{{ post.url }}">{{ post.firstname }} {{ post.lastname }}</a>
+                <a class="post-title" href="{{ post.url }}">
+                  <span class="post-date">{{ post.date | date_to_string }}</span>
+                  {{ post.firstname }} {{ post.lastname }}
+                </a>
               </li>
             {% endfor %}
           </ul>
