@@ -253,7 +253,7 @@ a:hover {
 
 .sidebar {
   float: left;
-  width: 15%;
+  width: 14%;
   padding-left: 11em;
   padding-right: 2.125em;
   border-right: 1px solid #e7e7e7;
@@ -284,10 +284,10 @@ a:hover {
 
 #sidebar-button {
   height: intrinsic;
-  width: intrinsic;
   cursor: pointer;
   display: none;
   padding: 15px 5px 0px 0px;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 #sidebar-button:active,

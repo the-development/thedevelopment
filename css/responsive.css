@@ -17,6 +17,10 @@
 }
 
 @media (max-width:1090px) {
+  #logo {
+    max-width: 100px;
+  }
+
   #name {
     font-size: 2.5em;
   }
@@ -34,11 +38,24 @@
   }
 
   .content {
-    padding-right: 7em;
+    padding-right: 3em;
   }
 
   .footer {
     font-size: 0.85em;
+  }
+
+  #info-links *,
+  .post-info,
+  .footer-link {
+    display: block;
+  }
+
+  .tagline,
+  #footer-license,
+  #info-links .separator,
+  .footer .separator {
+    display: none;
   }
 }
 
@@ -64,19 +81,6 @@
 
   .footer {
     text-align: left;
-  }
-
-  #info-links *,
-  .post-info,
-  .footer-link {
-    display: block;
-  }
-
-  .tagline,
-  #footer-license,
-  #info-links .separator,
-  .footer .separator {
-    display: none;
   }
 
   .sidebar {
