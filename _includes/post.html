@@ -7,12 +7,12 @@
       <img id="dp" src="/images/dps/{{ page.img }}">
     </div>
     <div id="info-container">
-      <h1 id="post-title"><span class="bold">{{ page.firstname }}</span><span class="thin">{{ page.lastname }}</span> <span id="post-title-suffix">{{ page.titlesuffix }}</span></h1>
+      <h1 id="name"><span class="bold">{{ page.firstname }}</span><span class="thin">{{ page.lastname }}</span></h1>
       <div id="info-links">
         {% if page.company %}
-          <span id="position">{{ page.position }} at <a href="{{ page.companyurl }}" id="company">{{ page.company }}</a></span>
+          <p id="position">{{ page.position }} at <a href="{{ page.companyurl }}" id="company">{{ page.company }}</a></p>
         {% else %}
-          <span id="position">{{ page.position }}</span>
+          <p id="position">{{ page.position }}</p>
         {% endif %}
         <a href="http://twitter.com/{{ page.twitter }}" id="twitter-url" class="post-info">@{{ page.twitter }}</a> <span class="separator">&bull;</span>
         <a href="{{ page.website }}" id="website-url" class="post-info">{{ page.website }}</a> <span class="separator">&bull;</span>
