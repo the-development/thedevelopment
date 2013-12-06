@@ -174,7 +174,7 @@ a:hover {
 }
 
 .post {
-  line-height: 25px;
+  line-height: 24px;
   max-width: 725px;
   clear: both;
 }
@@ -277,8 +277,7 @@ a:hover {
 .post-date {
   color: #888;
   font-family: Monaco, "Courier New", monospace;
-  font-size: 0.9em;
-  float: right;
+  font-weight: 600;
 }
 
 #sidebar-button {
