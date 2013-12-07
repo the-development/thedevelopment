@@ -319,6 +319,10 @@ a:hover {
 /*
 /*****************************************************************************/
 
+#about {
+  padding-right: 14em;
+}
+
 #about p {
   margin-top: 1.25em;
   text-align: justify;
