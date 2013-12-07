@@ -67,8 +67,6 @@ a:hover {
 .posts-list li {
   text-align: center;
   line-height: 1.75em;
-  padding-top: 0.15em;
-
 }
 
 /*****************************************************************************/
@@ -100,14 +98,13 @@ a:hover {
 .posts {
   border-top: 1px solid #e7e7e7;
   margin-top: 1em;
-  padding-bottom: 0.5em;
   padding-top: 1.5em;
+  padding-bottom: 1.25em;
 }
 
 .footer {
   font-size: 0.95em;
   border-top: 1px solid #e7e7e7;
-  margin-top: 2em;
   padding-top: 1.25em;
   overflow: hidden;
   float: center;
@@ -269,17 +266,23 @@ a:hover {
   font-size: 1.1em;
 }
 
+.post-link {
+  margin-bottom: 0.75em;
+}
+
 .post-title {
   font-weight: 600;
-  font-size: 1.1em;
+  font-size: 1.4em;
+  text-transform: uppercase;
 }
 
 .post-date {
-  color: #888;
+  color: #8a8a8a;
   font-family: Monaco, "Courier New", monospace;
   font-weight: 600;
-  font-size: 0.8em;
+  font-size: 0.65em;
   display: block;
+  text-transform: lowercase;
 }
 
 #sidebar-button {
