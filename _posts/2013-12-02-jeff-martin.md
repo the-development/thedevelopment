@@ -2,7 +2,6 @@
 layout: post
 firstname: Jeff
 lastname: Martin
-titlesuffix:  and his website
 position: Web developer and designer
 img: jeffmartin.jpg
 twitter: jeffxmn
