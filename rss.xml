@@ -1,0 +1,19 @@
+---
+layout: none
+---
+
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.name }}</title>
+    <link>{{ site.url }}</link>
+    <description>{{ site.description }}</description>
+    {% for post in site.posts limit:20 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <description>{{ post.content | xml_escape }}</description>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>

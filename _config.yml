@@ -1,3 +1,5 @@
 name: The Development
+description: A website about websites
+url: thedevelopment.co
 markdown: redcarpet
 pygments: true
