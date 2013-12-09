@@ -37,7 +37,8 @@
     padding-left: 4em;
   }
 
-  .content {
+  .content,
+  #about {
     padding-right: 3em;
   }
 
