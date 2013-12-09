@@ -80,10 +80,6 @@
     font-size: 0.8em;
   }
 
-  .footer {
-    text-align: left;
-  }
-
   .sidebar {
     transition: 1s;
     margin-left: -100%;
