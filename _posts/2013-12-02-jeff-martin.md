@@ -2,7 +2,7 @@
 layout: post
 firstname: Jeff
 lastname: Martin
-position: Web developer and designer
+position: Frontend web developer
 img: jeffmartin.jpg
 twitter: jeffxmn
 website: http://jeffreymartin.ca
