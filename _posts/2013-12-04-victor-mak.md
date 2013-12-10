@@ -2,7 +2,7 @@
 layout: post
 firstname: Victor
 lastname: Mak
-position: Full-stack web developer and designer
+position: Full-stack web developer
 img: victormak.jpg
 twitter: vicmakcy
 website: http://victormakcy.com
