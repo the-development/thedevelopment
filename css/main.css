@@ -134,6 +134,11 @@ a:hover {
   max-width: 225px;
 }
 
+#logo:hover,
+#dp:hover {
+  opacity: 0.75;
+}
+
 #dp-container {
   width: 20%;
 }
@@ -144,7 +149,7 @@ a:hover {
 
 #name {
   color: #494949;
-  margin-bottom: 0.35em;
+  margin-bottom: 0.3em;
   font-size: 3.5em;
   text-transform: uppercase;
 }
