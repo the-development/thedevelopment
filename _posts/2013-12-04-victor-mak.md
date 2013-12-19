@@ -4,7 +4,6 @@ firstname: Victor
 lastname: Mak
 position: Full-stack web developer
 img: victormak.jpg
-screenshot: victormak.jpg
 twitter: vicmakcy
 website: http://victormakcy.com
 date:   2013-12-04 10:46:00
@@ -18,6 +17,8 @@ My name is Victor Mak, a full-stack web developer with heavy focus on UI/UX desi
 I love working on random side projects and interacting with talented people in the design and development scene, as I am able to learn and incorporate their methodologies into my everyday work. Because of this I'm a frequent user of [GitHub](http://github.com/victormakcy), [Twitter](http://twitter.com/vicmakcy) and frequent viewer of various design and development blogs such as [Smashing Magazine](http://smashingmagazine.com), and [The Next Web](http://thenextweb.com)
 
 Aside from coding I have interest in things ranging from startups to photography ([500px](http://500px.com/victormakcy)) to finance, it’s just the generalist part about me.
+
+![screenshot](http://thedevelopment.co/images/screenshots/victormak.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

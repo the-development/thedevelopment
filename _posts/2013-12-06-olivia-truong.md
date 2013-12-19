@@ -4,7 +4,6 @@ firstname: Olivia
 lastname: Truong
 position: Visual Translator and Designer
 img: oliviatruong.jpg
-screenshot: oliviatruong.jpg
 twitter: ohteatea
 website: http://oliviatruong.ca
 date:   2013-12-06 20:55:00
@@ -18,6 +17,8 @@ My name is Olivia Truong, but a lot of people will refer to me by my initials, O
 I am currently finishing up my last year in university, studying graphic design at York University and Sheridan College. I am also working part-time at the York Federation of Students as one of their graphic designers, as well as freelancing for Saatchi & Saatchi and other clients on the side.
 
 I am also an avid concert attendee who enjoys travelling, and is also in love with cats—but probably to an unhealthy extent.
+
+![screenshot](http://thedevelopment.co/images/screenshots/oliviatruong.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

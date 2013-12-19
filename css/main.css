@@ -165,7 +165,8 @@ a:hover {
 }
 
 #info-links {
-  font-size: 1.2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.3em;
 }
 
 .bold {
@@ -180,6 +181,12 @@ a:hover {
   line-height: 24px;
   max-width: 725px;
   clear: both;
+}
+
+.post p img {
+  text-align: center;
+  max-width: 720px;
+  border: 1px solid #ccc;
 }
 
 .post h2 {

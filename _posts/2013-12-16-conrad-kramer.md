@@ -6,7 +6,6 @@ position: iOS Developer
 company: DeskConnect
 companyurl: http://deskconnect.com
 img: conradkramer.jpg
-screenshot: conradkramer.jpg
 twitter: conradev
 website: http://conra.dk
 date:   2013-12-16 11:00:00
@@ -18,6 +17,8 @@ categories: posts
 My name is Conrad, and I am an iOS developer, occasional blogger, and high school student. I am interested in all kinds of topics, from hackathons and programming education to privacy and cryptography. When I'm not programming, I can usually be found playing soccer.
 
 I am currently working on [DeskConnect](http://deskconnect.com).
+
+![screenshot](http://thedevelopment.co/images/screenshots/conradkramer.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 
