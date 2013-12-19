@@ -1,12 +1,6 @@
-@media (max-width: 1309px) {
-  #dp,
-  #screenshot {
-    max-height: 190px;
-  }
-
-  #photos-container {
-    margin-bottom: 2em;
-    height: 190px;
+@media (max-width:1309px) {
+  #dp {
+    max-width: 190px;
   }
 
   .header {
@@ -22,7 +16,7 @@
   }
 }
 
-@media (max-width: 1090px) {
+@media (max-width:1090px) {
   #logo {
     max-width: 100px;
   }
@@ -66,18 +60,24 @@
   }
 }
 
-@media (max-width: 820px) {
-  #screenshot {
-    display: none;
-  }
-}
-
 /**
  * iPhone width
  **/
-@media (max-width: 640px) {
+@media (max-width:640px) {
   #logo {
     max-width: 75px;
+  }
+
+  #dp {
+    max-width: 128px;
+  }
+
+  #name {
+    font-size: 1.35em;
+  }
+
+  #info-links {
+    font-size: 0.8em;
   }
 
   .sidebar {
