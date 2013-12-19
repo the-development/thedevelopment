@@ -4,6 +4,7 @@ firstname: Victor
 lastname: Mak
 position: Full-stack web developer
 img: victormak.jpg
+screenshot: victormak.jpg
 twitter: vicmakcy
 website: http://victormakcy.com
 date:   2013-12-04 10:46:00

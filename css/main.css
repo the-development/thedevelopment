@@ -124,27 +124,14 @@ a:hover {
   display: table;
 }
 
-#dp-container,
+#photos-container,
 #info-container {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-#dp {
-  max-width: 225px;
+  display: block;
 }
 
 #logo:hover,
 #dp:hover {
   opacity: 0.75;
-}
-
-#dp-container {
-  width: 20%;
-}
-
-#info-container {
-  padding-left: 20px;
 }
 
 #name {
@@ -237,6 +224,65 @@ a:hover {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+/*****************************************************************************/
+/*
+/* Photos
+/*
+/*****************************************************************************/
+
+#photos-container {
+  height: 225px;
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+#dp-container,
+#screenshot-container {
+  height: inherit;
+  float: left;
+}
+
+#screenshot-container {
+  margin-left: 5px;
+  position: relative;
+}
+
+#screenshot {
+  height: inherit;
+}
+
+#screenshot-hint {
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  line-height: 225px;
+  background-color: rgba(128, 133, 193, 0.75);
+  opacity: 0;
+
+  -webkit-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+#screenshot-hint:hover {
+  opacity: 1;
+  top: 0;
+  cursor: pointer;
+}
+
+#screenshot-hint p {
+  font-weight: 700;
+  color: #fff;
+}
+
+#dp {
+  max-height: 225px;
 }
 
 /*****************************************************************************/

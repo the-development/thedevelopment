@@ -4,6 +4,7 @@ firstname: Jeff
 lastname: Martin
 position: Frontend web developer
 img: jeffmartin.jpg
+screenshot: jeffmartin.jpg
 twitter: jeffxmn
 website: http://jeffreymartin.ca
 date:   2013-12-02 17:44:20

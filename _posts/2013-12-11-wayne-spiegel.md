@@ -4,6 +4,7 @@ firstname: Wayne
 lastname: Spiegel
 position: Product Designer
 img: waynespiegel.jpg
+screenshot: waynespiegel.jpg
 twitter: waynespiegel
 website: http://spiegelma.de
 date:   2013-12-11 11:00:00

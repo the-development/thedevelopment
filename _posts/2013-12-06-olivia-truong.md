@@ -4,6 +4,7 @@ firstname: Olivia
 lastname: Truong
 position: Visual Translator and Designer
 img: oliviatruong.jpg
+screenshot: oliviatruong.jpg
 twitter: ohteatea
 website: http://oliviatruong.ca
 date:   2013-12-06 20:55:00

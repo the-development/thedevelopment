@@ -6,6 +6,7 @@ position: Senior Software Engineer
 company: OneClass
 companyurl: http://oneclass.com
 img: longhoang.png
+screenshot: longhoang.jpg
 twitter: l0ngh
 website: http://longhoang.ca
 date:   2013-12-05 17:17:00

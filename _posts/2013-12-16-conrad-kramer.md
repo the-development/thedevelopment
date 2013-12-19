@@ -6,6 +6,7 @@ position: iOS Developer
 company: DeskConnect
 companyurl: http://deskconnect.com
 img: conradkramer.jpg
+screenshot: conradkramer.jpg
 twitter: conradev
 website: http://conra.dk
 date:   2013-12-16 11:00:00

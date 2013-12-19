@@ -6,6 +6,7 @@ position:  Product Designer
 company: Shopify
 companyurl: http://shopify.com
 img: helentran.jpg
+screenshot: helentran.jpg
 twitter: tranhelen
 website: http://helentran.com
 date:   2013-12-18 11:00:00
