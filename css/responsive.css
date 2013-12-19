@@ -88,6 +88,10 @@
     max-width: 128px;
   }
 
+  .post p img {
+    max-width: 300px;
+  }
+
   #name {
     font-size: 1.35em;
   }
