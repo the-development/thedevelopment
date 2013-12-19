@@ -15,7 +15,7 @@ I'm a Bachelor of Design Honours student at [York/Sheridan Program in Design](ht
 
 I'm currently taking a year off to intern at notable companies in the Bay Area. I just finished my internship at Facebook, and secured an offer from [Palantir](https://www.palantir.com/).
 
-![screenshot](http://thedevelopment.co/images/screenshots/waynespiegel.jpg)
+## ![screenshot](http://thedevelopment.co/images/screenshots/waynespiegel.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

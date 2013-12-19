@@ -18,7 +18,7 @@ I love working on random side projects and interacting with talented people in t
 
 Aside from coding I have interest in things ranging from startups to photography ([500px](http://500px.com/victormakcy)) to finance, it’s just the generalist part about me.
 
-![screenshot](http://thedevelopment.co/images/screenshots/victormak.jpg)
+## ![screenshot](http://thedevelopment.co/images/screenshots/victormak.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

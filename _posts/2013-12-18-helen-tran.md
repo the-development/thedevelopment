@@ -20,7 +20,7 @@ I've been creating and moving things around on the internet for about twelve yea
 
 Fun facts about me: I'm afraid of strong winds, have a pretty intense wanderlust, and I spend a lot of my time in comedy clubs.
 
-![screenshot](http://thedevelopment.co/images/screenshots/helentran.jpg)
+## ![screenshot](http://thedevelopment.co/images/screenshots/helentran.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

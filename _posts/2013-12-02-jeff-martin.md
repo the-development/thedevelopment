@@ -16,7 +16,7 @@ I'm a frontend web developer and designer who likes to take up projects and crea
 
 When I'm not coding, I take pictures and post them on my [500px](http://500px.com/jeffxmn) account. Ironically, I think I'm terrible at doing interviews. I never know what to say and how to say it. You have no idea how long it took to write this one.
 
-![screenshot](http://thedevelopment.co/images/screenshots/jeffmartin.jpg)
+## ![screenshot](http://thedevelopment.co/images/screenshots/jeffmartin.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

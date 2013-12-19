@@ -18,7 +18,7 @@ My name is Conrad, and I am an iOS developer, occasional blogger, and high schoo
 
 I am currently working on [DeskConnect](http://deskconnect.com).
 
-![screenshot](http://thedevelopment.co/images/screenshots/conradkramer.jpg)
+## ![screenshot](http://thedevelopment.co/images/screenshots/conradkramer.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

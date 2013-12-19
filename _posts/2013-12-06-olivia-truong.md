@@ -18,7 +18,7 @@ I am currently finishing up my last year in university, studying graphic design 
 
 I am also an avid concert attendee who enjoys travelling, and is also in love with cats—but probably to an unhealthy extent.
 
-![screenshot](http://thedevelopment.co/images/screenshots/oliviatruong.jpg)
+## ![screenshot](http://thedevelopment.co/images/screenshots/oliviatruong.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

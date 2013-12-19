@@ -16,7 +16,7 @@ categories: posts
 
 My name is Long (yes, it literally is). I'm a web developer, artist, blogger, and occasional foosball player. While you're there, you can check out my poorly-maintained [blog](http://longhoang.ca/blog).
 
-![screenshot](http://thedevelopment.co/images/screenshots/longhoang.jpg)
+## ![screenshot](http://thedevelopment.co/images/screenshots/longhoang.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 
