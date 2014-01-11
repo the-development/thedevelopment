@@ -42,7 +42,8 @@
   }
 
   .content,
-  #about {
+  #about,
+  #archives {
     padding-right: 3em;
   }
 
@@ -56,11 +57,25 @@
     display: block;
   }
 
+  .post-info {
+    margin-top: 0.3em;
+  }
+
   .tagline,
   #footer-license,
   #info-links .separator,
   .footer .separator {
     display: none;
+  }
+
+  .archives-date,
+  .archives-title,
+  .archives-position {
+    font-size: 0.9em;
+  }
+
+  .archives-title {
+    font-size: 1em;
   }
 }
 

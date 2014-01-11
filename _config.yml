@@ -3,3 +3,5 @@ description: A website about websites
 url: http://thedevelopment.co
 markdown: redcarpet
 pygments: true
+paginate: 8
+paginate_path: "archives/:num"

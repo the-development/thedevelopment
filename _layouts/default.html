@@ -34,14 +34,15 @@
         </div>
         <div class="posts">
           <ul class="posts-list">
-            {% for post in site.posts %}
-              <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
-                  {{ post.firstname }} {{ post.lastname }}
-                </a>
-              </li>
+            {% for post in site.posts limit:7 %}
+            <li class="post-link">
+              <a class="post-title" href="{{ post.url }}">
+                <span class="post-date">{{ post.date | date_to_string }}</span>
+                {{ post.firstname }} {{ post.lastname }}
+              </a>
+            </li>
             {% endfor %}
+            <li id="more-posts"><a id="more-posts-link" class="post-title" href="/archives/">More Interviews</a></li>
           </ul>
         </div>
         <div class="footer">

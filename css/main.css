@@ -131,12 +131,8 @@ a:hover {
 }
 
 #dp {
-  max-width: 225px;
-}
-
-#logo:hover,
-#dp:hover {
-  opacity: 0.75;
+  max-width: 200px;
+  border-radius: 5px;
 }
 
 #dp-container {
@@ -161,7 +157,7 @@ a:hover {
   text-transform: uppercase;
   display: block;
   padding-top: 0.25em;
-  padding-bottom: 0.45em;
+  padding-bottom: 0.75em;
 }
 
 #info-links {
@@ -279,21 +275,34 @@ a:hover {
   font-size: 1.1em;
 }
 
+#more-posts {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  font-size: 0.8em;
+}
+
+#more-posts-link {
+  color: #e10000;
+}
+
+#more-posts-link:hover {
+  color: #ff0000;
+}
+
 .post-link {
   margin-bottom: 0.75em;
 }
 
 .post-title {
   font-weight: 600;
-  font-size: 1.4em;
+  font-size: 1.25em;
   text-transform: uppercase;
 }
 
 .post-date {
   color: #8a8a8a;
-  font-family: Monaco, "Courier New", monospace;
   font-weight: 600;
-  font-size: 0.65em;
+  font-size: 0.75em;
   display: block;
   text-transform: lowercase;
 }
@@ -331,11 +340,12 @@ a:hover {
 
 /*****************************************************************************/
 /*
-/* About page
+/* About and Archive pages
 /*
 /*****************************************************************************/
 
-#about {
+#about,
+#archives {
   font-size: 1.1em;
   padding-right: 14em;
   line-height: 24px;
@@ -351,7 +361,8 @@ a:hover {
   text-align: justify;
 }
 
-.about-section {
+.about-section,
+.archives-section {
   padding-top: 2.75em;
 }
 
@@ -364,4 +375,47 @@ a:hover {
 
 #team {
   padding-bottom: 2em;
+}
+
+#archives-summary {
+  padding-left: 0.25em;
+  color: #7a7a7a;
+}
+
+#archives-table {
+  border-spacing: 1em;
+}
+
+.archives-table-info {
+  padding-left: 0.75em;
+}
+
+.archives-dp {
+  height: auto;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.archives-date,
+.archives-title {
+  display: block;
+  font-size: 1.1em;
+  line-height: 1.25em;
+}
+
+.archives-title {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #505050;
+}
+
+.archives-position {
+  color: #5f5f5f;
+  font-size: 0.95em;
+}
+
+.pagination {
+  border-top: 1px dotted #e7e7e7;
+  padding-top: 0.8em;
+  margin-bottom: 1.45em;
 }
