@@ -383,7 +383,7 @@ a:hover {
 }
 
 #archives-table {
-  border-spacing: 1em;
+  border-spacing: 0.9em;
 }
 
 .archives-table-info {
