@@ -2,7 +2,7 @@
 layout: post
 firstname: Jeff
 lastname: Martin
-position: Frontend web developer
+position: Software developer
 img: jeffmartin.jpg
 twitter: jeffxmn
 website: http://jeffreymartin.ca
@@ -12,7 +12,7 @@ categories: posts
 
 ## Let's get to know you first. Tell us about yourself.
 
-I'm a frontend web developer and designer who likes to take up projects and create the most random things (like this website). I spent my education years studying OOP languages like Java, but nowadays I like to focus on web development, UI design, and sometimes, mobile development. I find it super fun to work on the bleeding edge of software development and design. I love open source, so naturally, I'm a heavy user of [GitHub](http://github.com/jeffxmn). I also often use [Twitter](https://twitter.com/jeffxmn), and sometimes write stuff on [Medium](http://medium.com/@jeffxmn).
+I'm a software developer who likes to take up projects and create the most random things (like this website). I spent my education years studying OOP languages like Java, but nowadays I like to focus on web development, UI design, and sometimes, mobile development. I find it super fun to work on the bleeding edge of software development and design. I love open source, so naturally, I'm a heavy user of [GitHub](http://github.com/jeffxmn). I also often use [Twitter](https://twitter.com/jeffxmn), and sometimes write stuff on [Medium](http://medium.com/@jeffxmn).
 
 When I'm not coding, I take pictures and post them on my [500px](http://500px.com/jeffxmn) account. Ironically, I think I'm terrible at doing interviews. I never know what to say and how to say it. You have no idea how long it took to write this one.
 
@@ -33,9 +33,9 @@ I like to keep my website light on resources whenever possible. Right now, I'm u
   - A modified, lighter, Bootstrap 3 (for the grid system)
   - animate.css (for the animations)
 
-I used JQuery in past versions of my website, but as of this version, I'm not (!). Let's see how long _that_ lasts. I host everything on GitHub Pages, which I absolutely love since it helps keep my GitHub Contributions Graph active, but also since, yea, [I <3 GitHub](http://instagram.com/p/d7r3rUgerV/).
+I used JQuery in past versions of my website, but as of this version, I'm not (!). Let's see how long _that_ lasts. I host everything on GitHub Pages, which I love since it helps keep my GitHub Contributions Graph active (muahaha), but also since, yea, [I <3 GitHub](http://instagram.com/p/d7r3rUgerV/).
 
 ## Any upcoming changes we should look out for?
 
-More minimalism. I already have frequent thoughts, dreams, and nightmares, about what I would like the next revision to look like. At this rate, it's just a matter of time when I'll break down, open Coda 2, and do a CMD+A, delete. I wouldn't be surprised if I switched to [Jekyll](http://jekyllrb.com) too, which I'm already using for this website. It's a great framework, and goes perfectly well if you already host on GitHub.
+More, or other types of, minimalism. I already have frequent thoughts, dreams, and nightmares, about what I would like the next revision to look like. At this rate, it's just a matter of time when I'll break down, open Coda 2, and do a CMD+A, delete. I wouldn't be surprised if I switched to [Jekyll](http://jekyllrb.com) too, which I'm already using for this website. It's a great framework, and goes perfectly well if you already host on GitHub.
 
