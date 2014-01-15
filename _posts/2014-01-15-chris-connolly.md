@@ -16,7 +16,7 @@ categories: posts
 
 I'm Chris. I'm a product designer living in San Francisco, currently on the Instagram design team.
 
-## ![screenshot](http://thedevelopment.co/images/screenshots/chrisconolly.jpg)
+## ![screenshot](http://thedevelopment.co/images/screenshots/chrisconnolly.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 
