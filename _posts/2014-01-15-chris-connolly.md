@@ -8,7 +8,7 @@ companyurl: https://instagram.com
 img: chrisconnolly.jpg
 twitter: chrisconnolly
 website: http://chrisconnolly.com
-date:   2014-01-22 11:00:00
+date:   2014-01-15 11:00:00
 categories: posts
 ---
 
