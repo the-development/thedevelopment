@@ -131,7 +131,7 @@ a:hover {
 }
 
 #dp {
-  max-width: 200px;
+  max-width: 190px;
   border-radius: 5px;
 }
 
@@ -146,18 +146,18 @@ a:hover {
 #name {
   color: #494949;
   margin-bottom: 0.3em;
-  font-size: 3.5em;
+  font-size: 3.75em;
   text-transform: uppercase;
 }
 
 #position {
-  color: #707070;
+  color: #5f5f5f;
   font-weight: 600;
-  font-size: 1.15em;
+  font-size: 1.35em;
   text-transform: uppercase;
   display: block;
-  padding-top: 0.25em;
-  padding-bottom: 0.75em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 #info-links {
@@ -364,6 +364,10 @@ a:hover {
 .about-section,
 .archives-section {
   padding-top: 2.25em;
+}
+
+#archive {
+  padding-top: 1.5em;
 }
 
 #interview-questions,
