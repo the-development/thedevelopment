@@ -103,6 +103,10 @@
     max-width: 128px;
   }
 
+  .post h2 {
+    text-align: center;
+  }
+
   .post h2 img {
     max-width: 250px;
   }
