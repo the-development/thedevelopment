@@ -18,6 +18,8 @@ At the moment I’m visiting my parents for the holidays, as well as spending so
 
 In a few days I’ll be headed back to [Carnegie Mellon University](http://www.cmu.edu/index.shtml) where I study Computer Science and dabble with things I know dangerously little about. I’ll be packing my bags again a few months later to join Dropbox as a product designer. Before Dropbox, I was fortunate enough to intern at some of my favorite technology companies, including Apple and Google.
 
+## ![screenshot](http://thedevelopment.co/images/screenshots/ryhanhassan.jpg)
+
 ## Cool, so what's the story behind your website and its design?
 
 It was 11pm sometime in July, and I was reluctantly triaging email. Among requests from Nigerian princes was a small note from a well known company asking me to send a portfolio.
