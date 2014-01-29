@@ -44,7 +44,7 @@ I wish I had know more about the design interview process.
 
 I really didn’t know what to expect, and I could have done more to design around people talking about my work while interviewing me over the phone.
 
-## Technologies, languages, frameworks, or libraries? * [Optional]
+## Technologies, languages, frameworks, or libraries?
 
 Code-wise it’s not a particularly interesting site - it’s a pretty basic static site - so let me instead focus on the tools I used. I’m a sucker for beautiful tools (inside and out).
 
