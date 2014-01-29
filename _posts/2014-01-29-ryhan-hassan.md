@@ -40,7 +40,7 @@ One little thing you might not notice - as you scroll down while reading a proje
 
 ## Is there anything you wish you knew when you first started building your website?
 
-I wish I had know more about the design interview process.
+I wish I had known more about the design interview process.
 
 I really didn’t know what to expect, and I could have done more to design around people talking about my work while interviewing me over the phone.
 
