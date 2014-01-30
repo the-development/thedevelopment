@@ -11,6 +11,8 @@
       <div id="info-links">
         {% if page.company %}
           <p id="position">{{ page.position }} at <a href="{{ page.companyurl }}" id="company">{{ page.company }}</a></p>
+        {% elsif page.creation %}
+          <p id="position">{{ page.creator }} of <a href="{{ page.creationurl }}" id="company">{{ page.creation }}</a></p>
         {% else %}
           <p id="position">{{ page.position }}</p>
         {% endif %}
