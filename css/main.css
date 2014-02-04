@@ -340,12 +340,13 @@ a:hover {
 
 /*****************************************************************************/
 /*
-/* About and Archive pages
+/* About, Announcement, and Archive pages
 /*
 /*****************************************************************************/
 
 #about,
-#archives {
+#archives,
+#announcements {
   font-size: 1.1em;
   padding-right: 14em;
   line-height: 24px;
@@ -362,7 +363,8 @@ a:hover {
 }
 
 .about-section,
-.archives-section {
+.archives-section,
+.announcements-section {
   padding-top: 2.25em;
 }
 
@@ -422,4 +424,8 @@ a:hover {
   border-top: 1px dotted #e7e7e7;
   padding-top: 0.8em;
   margin-bottom: 1.45em;
+}
+
+.announcement {
+  margin-bottom: 2em;
 }
