@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  background-color: #a3abff;
+  color: #fff;
+}
+
+#fourohfour {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin-top: 5.5em;
+}
+
+h1 {
+  cursor: default;
+  letter-spacing: -15px;
+  font-size: 11em;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: -10px 10px 0px #9ba2f2,
+               -20px 20px 0px #8085C1;
+}
+
+p {
+  letter-spacing: 1px;
+  font-size: 1.25em;
+}
+
+a {
+  text-decoration: underline;
+  border: 0;
+  outline: none;
+  font-weight: 400;
+  color: #fff;
+}
+
+#smiley {
+  color: #8085C1;
+}
