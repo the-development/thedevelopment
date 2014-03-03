@@ -91,18 +91,6 @@ a:hover {
   color: #222;
 }
 
-#td-tagline {
-  display: none;
-}
-
-#title-text:hover #td-tagline {
-  display: inline-block;
-}
-
-#title-text:hover #td-name {
-  display: none;
-}
-
 .nav-links {
   font-size: 1.2em;
   color: #222;
