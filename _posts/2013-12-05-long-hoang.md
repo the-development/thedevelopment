@@ -6,17 +6,20 @@ position: Senior Software Engineer
 company: OneClass
 companyurl: http://oneclass.com
 img: longhoang.png
+screenshot: longhoang.jpg
 twitter: l0ngh
 website: http://longhoang.ca
 date:   2013-12-05 17:17:00
 categories: posts
+style: |
+  a {
+    color: #2a6496;
+  }
 ---
 
 ## Let's get to know you first. Tell us about yourself.
 
 My name is Long (yes, it literally is). I'm a web developer, artist, blogger, and occasional foosball player. While you're there, you can check out my poorly-maintained [blog](http://longhoang.ca/blog).
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/longhoang.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

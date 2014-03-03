@@ -1,36 +1,72 @@
-<div class="content" id="home">
-  <div id="sidebar-button">
-    <img src="/images/sidebar-button.png">
+<style type="text/css">
+  {{ page.style }}
+</style>
+
+<div class="content" id="post">
+  <div id="post-screenshot">
+    <a href="{{ page.website }}"><img id="screenshot" src="/images/screenshots/{{ page.screenshot }}"></a>
   </div>
   <div id="post-info">
-    <div id="dp-container">
-      <img id="dp" src="/images/dps/{{ page.img }}">
+    <h1 id="name"><span class="bold">{{ page.firstname }}</span><span class="thin">{{ page.lastname }}</span></h1>
+    <div id="info-links">
+      {% if page.company %}
+        <p id="position">{{ page.position }} at <a href="{{ page.companyurl }}" id="company" class="post-info">{{ page.company }}</a></p>
+      {% elsif page.creation %}
+        <p id="position">{{ page.creator }} of <a href="{{ page.creationurl }}" id="company" class="post-info">{{ page.creation }}</a></p>
+      {% else %}
+        <p id="position">{{ page.position }}</p>
+      {% endif %}
+      <a href="{{ page.website }}" id="website-url" class="post-info">{{ page.website }}</a>
+      {% if page.twitter %}
+        &sdot; <a id="social" href="http://twitter.com/{{ page.twitter }}" id="twitter-url" class="post-info">@{{ page.twitter }}</a>
+      {% endif %}
+
     </div>
-    <div id="info-container">
-      <h1 id="name"><span class="bold">{{ page.firstname }}</span><span class="thin">{{ page.lastname }}</span></h1>
-      <div id="info-links">
-        {% if page.company %}
-          <p id="position">{{ page.position }} at <a href="{{ page.companyurl }}" id="company">{{ page.company }}</a></p>
-        {% elsif page.creation %}
-          <p id="position">{{ page.creator }} of <a href="{{ page.creationurl }}" id="company">{{ page.creation }}</a></p>
-        {% else %}
-          <p id="position">{{ page.position }}</p>
-        {% endif %}
-        <a href="http://twitter.com/{{ page.twitter }}" id="twitter-url" class="post-info">@{{ page.twitter }}</a> <span class="separator">&bull;</span>
-        <a href="{{ page.website }}" id="website-url" class="post-info">{{ page.website }}</a> <span class="separator">&bull;</span>
-        <span id="date" class="post-info">{{ page.date | date_to_string }}</a>
-      </div>
-    </div>
+  </div>
+
+  <div id="dp-container">
+    <img id="dp" src="/images/dps/{{ page.img }}">
   </div>
 
   <div class="post">
     {{ content }}
   </div>
-  <div class="colophon">
-    <p>
-      <span id="credit">Inspired by <a href="http://usesthis.com">The Setup</a></span> <span class="separator">&bull;</span>
-      <span id="reminder">New posts every <span class="bold">Mondays</span> and <span class="bold">Wednesdays</span></span> <span class="separator">&bull;</span>
-      <span id="follow-us">Follow us on <a href="https://twitter.com/_thedevelopment">Twitter</a>!</span>
-    </p>
+
+  <div id="share">
+    <div id="meta">
+      <span id="date">Interview date: {{ page.date | date_to_string }}</span> &sdot;
+      <span id="permalink"><a href="{{ site.url }}{{ page.url }}">Permalink</a></span>
+    </div>
+    <div id="twitter">
+      <a href="https://twitter.com/intent/tweet?text=Check%20out%20{{ page.firstname }}%20{{ page.lastname }}'s%20interview%20on%20The%20Development%20{{ site.url }}{{ page.url }}" target="_blank">Tweet this interview</a>
+    </div>
+    <div id="facebook">
+      <a href="http://www.facebook.com/sharer.php?u={{ site.url}}{{ page.url }}" target="_blank">Share on Facebook</a>
+    </div>
+  </div>
+  <div id="browse">
+    <h3 id="browse-title">More interviews</h3>
+    <div class="posts-list">
+      {% if page.previous.url %}
+        <a href="{{ page.previous.url }}">
+          <div class="post-element" style="background-image: url(/images/screenshots/{{ page.previous.screenshot }}); background-size: cover;">
+            <div class="post-detail">
+              <img class="post-dp" src="/images/dps/{{ page.previous.img }}">
+              <span class="post-caption">{{ page.previous.firstname }} {{ page.previous.lastname }}</span>
+            </div>
+          </div>
+        </a>
+      {% endif %}
+      {% if page.next.url %}
+        <a href="{{ page.next.url }}">
+          <div class="post-element" style="background-image: url(/images/screenshots/{{ page.next.screenshot }}); background-size: cover;">
+            <div class="post-detail">
+              <img class="post-dp" src="/images/dps/{{ page.next.img }}">
+              <span class="post-caption">{{ page.next.firstname }} {{ page.next.lastname }}</span>
+            </div>
+          </div>
+        </a>
+      {% endif %}
+    </div>
   </div>
 </div>

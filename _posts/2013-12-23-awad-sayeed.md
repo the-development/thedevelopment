@@ -6,17 +6,20 @@ position: Co-Founder and CTO
 company: Pixlee
 companyurl: https://www.pixlee.com/
 img: awadsayeed.jpg
+screenshot: awadsayeed.jpg
 twitter: awadsayeed
 website: http://awadsayeed.com
 date:   2013-12-23 11:00:00
 categories: posts
+style: |
+  a {
+    color: #eecc00;
+  }
 ---
 
 ## Let's get to know you first. Tell us about yourself.
 
 First and foremost, I’m not a designer. I’ve always wished I had the talent and artistic ability to be one but I was not so lucky. At best, I like to hope and think I have a decent appreciation for design. I consider myself a builder and have been working on creating solutions to problems through software for years. My work history includes a variety of software development work, both contracted and in-house. Some of my past projects have been featured on prominent news outlets including Bloomberg and Fox News.
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/awadsayeed.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

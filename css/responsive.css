@@ -1,149 +1,114 @@
-@media (max-width:1309px) {
+@media (max-width:900px) {
+  #screenshot {
+    max-width: 90%;
+  }
+
+  .site {
+    width: 50em;
+  }
+}
+
+@media (max-width:780px) {
+  body {
+    font-size: 90%;
+  }
+
+  .site {
+    width: 47em;
+  }
+}
+
+@media (max-width:700px) {
+  body {
+    font-size: 90%;
+  }
+
   #dp {
-    max-width: 190px;
+    max-width: 200px;
   }
 
-  .header {
-    padding-top: 3.45em;
+  .site {
+    width: 42em;
   }
 
-  .posts {
-    font-size: 0.9em;
+  .post-element {
+    width: 300px;
   }
 
-  .footer {
-    font-size: 0.85em;
-  }
-}
-
-@media (max-width:1090px) {
-  #logo {
-    max-width: 100px;
+  .post-dp {
+    width: 70px;
   }
 
-  #name {
-    font-size: 2.5em;
+  #browse {
+    padding-bottom: 17em;
   }
 
-  .post h2 img {
-    max-width: 650px;
-  }
-
-  .header {
-    padding-top: 3.85em;
-  }
-
-  .posts {
-    font-size: 0.85em;
-  }
-
-  .sidebar {
-    padding-left: 4em;
-  }
-
-  .content,
-  #about,
-  #archives {
-    padding-right: 3em;
-  }
-
-  .footer {
-    font-size: 0.85em;
-  }
-
-  #info-links *,
-  .post-info,
-  .footer-link {
+  .post-element {
     display: block;
+    margin: 0 auto;
+    margin-bottom: 0.75em;
   }
 
-  .post-info {
-    margin-top: 0.3em;
+  .archives-item {
+    height: 200px;
   }
 
-  .tagline,
-  #footer-license,
-  #info-links .separator,
-  .footer .separator {
-    display: none;
-  }
-
-  .archives-date,
-  .archives-title,
-  .archives-position {
-    font-size: 0.9em;
-  }
-
-  .archives-title {
-    font-size: 1em;
-  }
-}
-
-@media (max-width:910px) {
-  .post h2 img {
-    max-width: 550px;
-  }
-}
-
-@media (max-width:800px) {
-  .post h2 img {
-    max-width: 450px;
+  .archives-dp {
+    width: 100px;
+    margin-top: 35px;
   }
 }
 
 /**
  * iPhone width
  **/
-@media (max-width:640px) {
-  #logo {
-    max-width: 75px;
+@media (max-width:650px) {
+  body {
+    font-size: 80%;
   }
 
   #dp {
-    max-width: 128px;
+    max-width: 175px;
   }
 
-  .post h2 {
-    text-align: center;
+  .site {
+    width: min-intrinsic;
   }
 
-  .post h2 img {
-    max-width: 250px;
+  .archives-item {
+    height: 125px;
+  }
+
+  .archives-dp {
+    display: none;
+  }
+
+  .archives-name {
+    margin-top: 30px;
+  }
+
+  #browse {
+    padding-bottom: 17em;
+  }
+
+  #footer {
+    line-height: normal;
+    padding-top: 2em;
+  }
+
+  .footer-text {
+    display: block;
+  }
+
+  .separator {
+    display: none;
   }
 
   #name {
-    font-size: 1.25em;
+    font-size: 2.5em;
   }
-
+  
   #info-links {
-    font-size: 0.8em;
+    font-size: 1.1em;
   }
-
-  .sidebar {
-    transition: 1s;
-    margin-left: -100%;
-    z-index: 3;
-    width: 35%;
-    padding-left: 1.75em;
-  }
-
-  .content {
-    z-index: 1;
-    padding-right: 2em;
-  }
-
-  #sidebar-button {
-    display: block;
-    z-index: 2;
-  }
-}
-
-/*****************************************************************************/
-/*
-/* Sidebar responsive animations
-/*
-/*****************************************************************************/
-
-.slideIn {
-  margin-left: 0%;
 }

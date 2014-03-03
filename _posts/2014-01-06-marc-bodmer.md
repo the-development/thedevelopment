@@ -6,10 +6,15 @@ position: Software Developer
 company: 500px
 companyurl: https://500px.com/
 img: marcbodmer.jpg
+screenshot: marcbodmer.jpg
 twitter: marcbodmer
 website: http://mbodmer.com
 date:   2014-01-06 11:00:00
 categories: posts
+style: |
+  a {
+    color: #0d2c5a;
+  }
 ---
 
 ## Let's get to know you first. Tell us about yourself.
@@ -19,8 +24,6 @@ I'm Marc Bodmer and I am a web developer with a focus on front-end development. 
 I started working on Open Source projects while still in University and that introduced me to the world of web development. Since then, I have been working extensively with all kinds of tech stacks for the web. I love being challenged on creating software in a short amount of time and as a result enter myself into online programming contests and local hackathons. Furthermore, I enjoy attending tech conferences and local tech meetup groups in Toronto, and even speaking at them when I have an opportunity to do so. Check out some of the stuff I have been working on through my [Github profile](https://github.com/m-bodmer).
 
 In my off time, I love to explore the world, rock climb in the summer and ski in the winter.
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/marcbodmer.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

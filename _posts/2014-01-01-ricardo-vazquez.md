@@ -6,6 +6,7 @@ position: UI/UX and iOS Designer
 company: FreshBooks
 companyurl: http://freshbooks.com
 img: ricardovazquez.png
+screenshot: ricardovazquez.jpg
 twitter: iamrvazquez
 website: http://vazquez.io
 date:   2014-01-01 11:00:00
@@ -21,8 +22,6 @@ Growing up around a family of musicians and artists, I decided to pursue meaning
 When I'm not designing, I spend my free time rowing along the rivers in Ontario, Canada. Rowing helps me design better; it's one sport I will never leave. Along with rowing, writing helps me keep my mind in check. I write regularly on [Svbtle](http://www.vazquez.svbtle.com).
 
 I am interested in culture, design, aesthetic, wit, reality, existence, history, education, thought and, above all, the relentless pursuit of happiness.
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/ricardovazquez.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

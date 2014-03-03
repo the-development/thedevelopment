@@ -1,28 +1,26 @@
 ---
 layout: default
-title: The Development Archives
+title: Archives
 ---
 
 <div class="content" id="archives">
-  <div id="sidebar-button">
-    <img src="/images/sidebar-button.png">
-  </div>
   <div id="title" class="archives-section">
     <h1>The Archives</h1>
-    <p id="archives-summary">Every "The Development" interview in order of descending date.</p>
+    <span id="archives-summary">Every "The Development" interview in order of descending date.</span>
   </div>
   <div id="archive" class="archives-section">
-    <table id="archives-table">
     {% for post in paginator.posts %}
-      <tr class="archives-item">
-        <td class="archives-table-dp"><a href="{{ post.url }}"><img class="archives-dp" src="/images/dps/{{ post.img }}"></a></td>
-        <td class="archives-table-info">
-          <span class="archives-date">{{ post.date | date_to_string }}</span>
-          <a class="archives-title" href="{{ post.url }}">{{ post.title }}, <span class="archives-position">{{ post.position }}</span></a>
-        </td>
-      </tr>
+      <a class="archives-title" href="{{ post.url }}">
+      <div class="archives-item" style="background-image: url(/images/screenshots/{{ post.screenshot }}); background-size: cover;">
+        <div id="archives-caption" class="post-detail">
+          <img class="archives-dp" src="/images/dps/{{ post.img }}">
+          <p class="archives-name">{{ post.title }}</p>
+          <p class="archives-position">{{ post.position }}</p>
+          <p class="archives-date">{{ post.date | date_to_string }}</p>
+        </div>
+      </div>
+      </a>
     {% endfor %}
-    </table>
     <div class="pagination">
       {% if paginator.previous_page == 1 %}
         <a href="/archives" class="previous">Newer interviews</a> -

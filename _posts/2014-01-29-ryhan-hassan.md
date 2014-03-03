@@ -6,10 +6,15 @@ position: Product Designer
 company: Dropbox
 companyurl: http://dropbox.com/
 img: ryhanhassan.jpg
+screenshot: ryhanhassan.jpg
 twitter: ryhanhassan
 website: http://ryhan.me
 date:   2014-01-29 11:00:00
 categories: posts
+style: |
+  a {
+    color: #4682b4;
+  }
 ---
 
 ## Let's get to know you first. Tell us about yourself.
@@ -17,8 +22,6 @@ categories: posts
 At the moment I’m visiting my parents for the holidays, as well as spending some quality time curled up with books and tea. During the rest of the year I spend much of my time tinkering on a side project or three.
 
 In a few days I’ll be headed back to [Carnegie Mellon University](http://www.cmu.edu/index.shtml) where I study Computer Science and dabble with things I know dangerously little about. I’ll be packing my bags again a few months later to join Dropbox as a product designer. Before Dropbox, I was fortunate enough to intern at some of my favorite technology companies, including Apple and Google.
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/ryhanhassan.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

@@ -4,6 +4,7 @@ firstname: Wayne
 lastname: Spiegel
 position: Product Designer
 img: waynespiegel.jpg
+screenshot: waynespiegel.jpg
 twitter: waynespiegel
 website: http://spiegelma.de
 date:   2013-12-11 11:00:00
@@ -14,8 +15,6 @@ categories: posts
 I'm a Bachelor of Design Honours student at [York/Sheridan Program in Design](http://design.yorku.ca/). Although my program is more print oriented, I've chosen to pursue product design. I focus on simplifying user interfaces without diminishing the usability and the experience. During my spare time, I tinker and prototype my radical ideas with HTML, CSS, and some JavaScript.
 
 I'm currently taking a year off to intern at notable companies in the Bay Area. I just finished my internship at Facebook, and secured an offer from [Palantir](https://www.palantir.com/).
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/waynespiegel.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

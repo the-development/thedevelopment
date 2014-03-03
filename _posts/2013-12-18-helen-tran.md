@@ -6,10 +6,15 @@ position:  Product Designer
 company: Shopify
 companyurl: http://shopify.com
 img: helentran.jpg
+screenshot: helentran.jpg
 twitter: tranhelen
 website: http://helentran.com
 date:   2013-12-18 11:00:00
 categories: posts
+style: |
+  a {
+    color: #98c5ee;
+  }
 ---
 
 ## Let's get to know you first. Tell us about yourself.
@@ -19,8 +24,6 @@ Hello! I'm a Product Designer and I work at [Shopify](http://shopify.com).
 I've been creating and moving things around on the internet for about twelve years now. I love change so the speed of the industry was a good match for me.
 
 Fun facts about me: I'm afraid of strong winds, have a pretty intense wanderlust, and I spend a lot of my time in comedy clubs.
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/helentran.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

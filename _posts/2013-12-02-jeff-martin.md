@@ -21,8 +21,6 @@ I'm a web and mobile developer who likes to take up projects and create the most
 
 When I'm not coding, I take pictures and post them on my [500px](http://500px.com/jeffxmn) account. Ironically, I think I'm terrible at doing interviews. I never know what to say and how to say it. You have no idea how long it took to write this one.
 
-## ![screenshot](/images/screenshots/jeffmartin.jpg)
-
 ## Cool, so what's the story behind your website and its design?
 
 I'm a huge fan of minimalism. I built my website a little over a year ago, and since then, I've revamped it (aka rewrote everything from scratch) at least nine times. I work on my website until I'm perfectly happy with it, only to become unhappy with it a few weeks later, and revamp it again. I've played around with JQuery animations, CSS animations, one-page layouts, timelines, and currently, Jekyll. Feel free to check my [website](http://jeffreymartin.ca) again in a few weeks to see whether or not I've become unhappy with it.

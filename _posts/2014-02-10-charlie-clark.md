@@ -6,10 +6,15 @@ position: Interactive Developer
 company: Domani
 companyurl: http://domanistudios.com
 img: charlieclark.jpg
+screenshot: charlieclark.jpg
 twitter: clarkcharlie03
 website: http://charlieclarkdesign.com
 date:   2014-02-10 11:00:00
 categories: posts
+style: |
+  a {
+    color: #824840;
+  }
 ---
 
 ## Let's get to know you first. Tell us about yourself.
@@ -17,8 +22,6 @@ categories: posts
 Hi! I'm Charlie Clark - an interactive developer based in Brooklyn, currently working at [Domani Studios](http://domanistudios.com). I graduated from Parsons in 2012 with a BFA in Graphic Design, but by my senior year I was working almost exclusively on interactive digital projects. Fresh out of school, I started as a web developer intern at [Stinkdigital](http://stinkdigital.com), where I went on to work as a  lead developer on a number of award winning projects.
 
 I love writing clever code, experimenting with new web technologies, and challenging myself to make things that are both solidly built and innovative. In my spare time, I love to create more artful personal stuff, like my latest project ["The Colors of Twitter"](http://thecolorsoftwitter.com) - an interactive data visualization of the use of color on twitter.
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/charlieclark.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

@@ -5,6 +5,7 @@ lastname: Oxley
 position: Designer of the original Twitter bird and Octocat
 img: simonoxley.jpg
 twitter: simonoxleee
+screenshot: simonoxley.jpg
 website: http://idokungfoo.com
 date:   2014-02-24 11:00:00
 categories: posts
@@ -13,8 +14,6 @@ categories: posts
 ## Let's get to know you first. Tell us about yourself.
 
 I live in Oxford UK after 14 yrs abroad mostly in Japan, where my wife is from. We have 2 kids who both enjoy drawing and making models so I don’t have to look far for inspiration. Recently I have been producing character mascots for web based firms in Japan and the United States - the images I receive most comment about are the original Twitter bird and the Github Octocat (which I named Octopuss before it was purchased). Both of these images were discovered on the well known stock library [iStockphoto](http://www.istockphoto.com) (now iStock, a Getty owned company) - I was lucky enough to get on iStock before many other vector image makers, in 2004, so my catalogue of images perhaps received more views - now the number of contributors and the outstanding quality of images on offer brings greater competition for views - this platform has allowed me to broadcast to a greater number of people and gain contracts based on clients requiring something similar or in the style of what they have seen in my collection. It is my ambition to make 3D models of the characters I draw and ultimately to write stories in which a cast of characters can play out various scenarios.
-
-## ![screenshot](/images/screenshots/simonoxley.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

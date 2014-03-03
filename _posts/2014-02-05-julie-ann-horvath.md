@@ -4,17 +4,20 @@ firstname: Julie Ann
 lastname: Horvath
 position: Designer and Front-end Developer
 img: julieannhorvath.jpg
+screenshot: julieannhorvath.jpg
 twitter: nrrrdcore
 website: http://julieannhorvath.com
 date:   2014-02-05 11:00:00
 categories: posts
+style: |
+  a {
+    color: #f27478;
+  }
 ---
 
 ## Let's get to know you first. Tell us about yourself.
 
 My name's Julie Ann Horvath. I'm a designer and front-end developer at [GitHub](https://github.com). I'm also the creator, organizer, and MC of the all-female talk series [Passion Projects](http://passion-projects.github.com).
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/julieannhorvath.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

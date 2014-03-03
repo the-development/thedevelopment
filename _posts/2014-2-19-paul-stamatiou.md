@@ -6,6 +6,7 @@ position: Designer
 company: Twitter
 companyurl: http://twitter.com/
 img: paulstamatiou.jpg
+screenshot: paulstamatiou.jpg
 twitter: stammy
 website: http://paulstamatiou.com
 date:   2014-02-19 11:00:00
@@ -17,8 +18,6 @@ categories: posts
 Hi! I'm Paul Stamatiou but at this point I think people more people know me by my Twitter handle, Stammy. I'm a designer at Twitter in San Francisco. Before joining Twitter I co-founded three startups spanning over five years. It was with those startups where I was able hone my design and development skills. Before that I went to Georgia Tech in Atlanta where I studied computational media: a hybrid CS/design degree of sorts.
 
 Most of my day at work is spent designing in Photoshop for mobile. I tend to design for Android first and then iOS for every project, having recently become an [Android addict myself](http://paulstamatiou.com/android-is-better/). 
-
-## ![screenshot](/images/screenshots/paulstamatiou.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

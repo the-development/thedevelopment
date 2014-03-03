@@ -6,10 +6,15 @@ position: Product Designer
 company: Shopify
 companyurl: https://shopify.com/
 img: kevinclark.jpg
+screenshot: kevinclark.jpg
 twitter: vernalkick
 website: http://kevinclark.ca
 date:   2014-01-22 11:00:00
 categories: posts
+style: |
+  a {
+    color: #1990c6;
+  }
 ---
 
 ## Let's get to know you first. Tell us about yourself.
@@ -19,8 +24,6 @@ Hi, my name is Kevin Clark and I'm a product designer at [Shopify](http://shopif
 I design interfaces for the screen. Sometimes these interfaces help them do things they didn’t think was possible, sometimes they serve as a medium for information, but most of the time, they help people connect.
 
 I never really planned on doing design professionally at first, for me it was just something I really loved doing in my free time. I spent countless hours reading books and going through online tutorials to learn Photoshop or the basics of HTML and CSS for fun. It's a bit later than it clicked that I could do that for a job (even though it didn't feel like one). That’s around the time I dropped out of university and started focusing on my career in design.
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/kevinclark.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

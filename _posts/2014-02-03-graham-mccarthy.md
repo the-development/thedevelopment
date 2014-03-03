@@ -6,6 +6,7 @@ position: Co-Founder/CTO
 company: SoapBox Innovations Inc.
 companyurl: http://soapboxhq.com
 img: grahammccarthy.png
+screenshot: grahammccarthy.jpg
 twitter: grahammccarthy
 website: http://www.grahammccarthy.com
 date:   2014-02-03 11:00:00
@@ -19,8 +20,6 @@ I'm CTO and Co-Founder of a tech start-up in Toronto called [SoapBox Innovations
 Previously, I worked at [Ryerson University](http://www.ryerson.ca/index.html), managing a team of developers working on some innovation technologies utilizing mobile apps, way-finding and content discovery. It was a lot of fun.
 
 I received a Masters of Information from University of Toronto and a B.A from York University in Information Technology.
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/grahammccarthy.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

@@ -4,10 +4,15 @@ firstname: Dara
 lastname: Skolnick
 position: Designer and Front-end Developer
 img: daraskolnick.jpg
+screenshot: daraskolnick.jpg
 twitter: daraskolnick
 website: http://daraskolnick.com
 date:   2014-02-26 11:00:00
 categories: posts
+style: |
+  a {
+    color: #e4be3b;
+  }
 ---
 
 ##Let's get to know you first. Tell us about yourself.
@@ -15,8 +20,6 @@ categories: posts
 Hi! I'm Dara, an independent web designer and front-end developer from Toronto. I've been running my own design + dev business for almost a year now, and I love being able to work with all sorts of fun people on all sorts of fun projects! I also enjoy teaching what I know, so you can sometimes find me volunteering with [Ladies Learning Code](http://ladieslearningcode.com) or mentoring over at [HackerYou](http://hackeryou.com).
 
 I've been designing and coding websites since that golden era that was late '90s, when coding sites in tables was all the rage, and CSS was almost unheard of. The only constant in web design is change, and I really like that (well, most of the time). It's impossible to be bored in this industry.
-
-## ![screenshot](/images/screenshots/daraskolnick.jpg)
 
 ##Cool, so what's the story behind your website and its design?
 

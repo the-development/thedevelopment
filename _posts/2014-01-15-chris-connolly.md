@@ -6,17 +6,20 @@ position: Product Designer
 company: Instagram
 companyurl: https://instagram.com
 img: chrisconnolly.jpg
+screenshot: chrisconnolly.jpg
 twitter: chrisconnolly
 website: http://chrisconnolly.com
 date:   2014-01-15 11:00:00
 categories: posts
+style: |
+  a {
+    color: #7db5cc;
+  }
 ---
 
 ## Let's get to know you first. Tell us about yourself.
 
 I'm Chris. I'm a product designer living in San Francisco, currently on the Instagram design team.
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/chrisconnolly.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

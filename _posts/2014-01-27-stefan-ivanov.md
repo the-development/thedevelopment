@@ -4,17 +4,20 @@ firstname: Stefan
 lastname: Ivanov
 position: Digital Designer
 img: stefanivanov.png
+screenshot: stefanivanov.jpg
 twitter: steveivanov
 website: http://stefivanov.com
 date:   2014-01-27 11:00:00
 categories: posts
+style: |
+  a {
+    color: #f7aa4c;
+  }
 ---
 
 ## Let's get to know you first. Tell us about yourself.
 
 My name is Stefan, but most people call me Stef. I currently live and work in London. Economist by education, designer by heart. I'm in love with anything digital and I firmly believe that there is no successful project without professional and user-friendly look. My favourite colour is white and I always keep my Mac's wallpaper just plain white. That helps me to concentrate and clear my head of any distracting thoughts. I've been in the web design industry for about 7 years now and I always find something new to learn, and hopefully that's never gonna end. Being a good designer means to be an obsessed perfectionist, always hungry to learn something new and never afraid to try something unusual.
-
-## ![screenshot](http://thedevelopment.co/images/screenshots/stefanivanov.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

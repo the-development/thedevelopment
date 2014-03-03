@@ -6,17 +6,20 @@ position: Full-Stack Developer
 company: BNotions
 companyurl: http://bnotions.com
 img: azharkhan.jpg
+screenshot: azharkhan.jpg
 twitter: TheAzharKhan
 website: http://azharkhan.net
 date:   2014-02-12 11:00:00
 categories: posts
+style: |
+  a {
+    color: #e0605f;
+  }
 ---
 
 ## Let's get to know you first. Tell us about yourself.
 
 I'm a Full Stack developer (mostly learned through hacking away at something till it works), currently working as a Web Engineer at [BNOTIONS](http://www.bnotions.com) which is a technology innovations company creating products that are disruptive and innovative solutions for clients. I stumbled into this field while navigating through the co-op program at the University of Waterloo. Being a Mechatronics Engineering student, I was exposed to various fields, but I have always been drawn towards the web industry because I had a keen interest in keeping up with new products as well as the amazing innovation and possibilities that it allowed. Although I didn't have a programming background, I was given an opportunity to work directly within the industry and learn by doing through startup companies. Using what I've learnt and constantly trying to get better, I'm working towards finding my own niche within this industry while keeping up with new technologies and trends.
-
-## ![screenshot](/images/screenshots/azharkhan.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 

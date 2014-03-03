@@ -4,6 +4,7 @@ firstname: Thomas
 lastname: Palumbo
 position: Web Designer From Tampa
 img: thomaspalumbo.png
+screenshot: thomaspalumbo.jpg
 twitter: thomasp423
 website: http://thomaspalumbo.com
 date:   2014-02-17 11:00:00
@@ -13,8 +14,6 @@ categories: posts
 ## Let's get to know you first. Tell us about yourself.
 
 I'm a 23 year old Website & UI Designer located in Tampa, Florida. I've been designing for about four years now. I graduated from Florida State University (Go Noles) in May of 2013 and moved back to Tampa where I found a job working full time as a UI Designer for learning software. A great design looks beautiful and solves problems. Understanding your users and their needs is critical when designing anything.
-
-## ![screenshot](/images/screenshots/thomaspalumbo.jpg)
 
 ## Cool, so what's the story behind your website and its design?
 
