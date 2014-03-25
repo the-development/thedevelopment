@@ -13,11 +13,7 @@ layout: none
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <link>{{ site.url }}{{ post.url }}</link>
-        <image>
-          <url>{{ site.screenshots_dir }}{{ post.screenshot }}</url>
-          <title>{{ post.firstname }}'s Website Screenshot</title>
-          <link>{{ site.url }}{{ post.url }}</link>
-        </image>
+        <enclosure url="{{ site.screenshots_dir }}{{ post.screenshot }}" type="image/jpeg" length="500" />
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <description>{{ post.content | xml_escape }}</description>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
