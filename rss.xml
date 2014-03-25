@@ -3,7 +3,7 @@ layout: none
 ---
 
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:td="http://thedevelopment.co/rss">
   <channel>
     <atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" />
     <title>{{ site.name }}</title>
@@ -13,6 +13,7 @@ layout: none
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <link>{{ site.url }}{{ post.url }}</link>
+        <td:position>{{ post.position }}</td:position>
         <media:content type="image/jpeg" url="{{ site.screenshots_dir }}{{ post.screenshot }}">
           <media:description type="plain">{{ post.firstname }}'s Website</media:description>
           <media:copyright>TBD</media:copyright>
