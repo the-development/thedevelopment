@@ -1,6 +1,7 @@
 name: The Development
 description: A website about websites
 url: http://thedevelopment.co
+screenshots_dir: http://thedevelopment.co/images/screenshots/
 markdown: redcarpet
 pygments: true
 paginate: 8
