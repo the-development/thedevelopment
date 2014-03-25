@@ -17,7 +17,7 @@ layout: none
           <media:description type="plain">{{ post.firstname }}'s Website</media:description>
           <media:copyright>TBD</media:copyright>
         </media:content>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <pubDate>{{ post.date | date: "%d %b %Y" }}</pubDate>
         <description>{{ post.content | xml_escape }}</description>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       </item>
