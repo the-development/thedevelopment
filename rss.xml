@@ -13,12 +13,12 @@ layout: none
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <link>{{ site.url }}{{ post.url }}</link>
-        <media:content type="image/jpeg" url="{{ site.screenshots_dir }}{{ post.screenshot }}">
-          <media:description type="plain">{{ post.firstname }}'s Website</media:description>
-          <media:copyright>TBD</media:copyright>
-        </media:content>
         <media:content type="image/jpeg" url="{{ site.dps_dir }}{{ post.img }}">
           <media:description type="plain">{{ post.firstname }}</media:description>
+          <media:copyright>TBD</media:copyright>
+        </media:content>
+        <media:content type="image/jpeg" url="{{ site.screenshots_dir }}{{ post.screenshot }}">
+          <media:description type="plain">{{ post.firstname }}'s Website</media:description>
           <media:copyright>TBD</media:copyright>
         </media:content>
         <category>{{ post.position }}</category>
