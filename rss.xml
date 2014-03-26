@@ -17,6 +17,10 @@ layout: none
           <media:description type="plain">{{ post.firstname }}'s Website</media:description>
           <media:copyright>TBD</media:copyright>
         </media:content>
+        <media:content type="image/jpeg" url="{{ site.dps_dir }}{{ post.img }}">
+          <media:description type="plain">{{ post.firstname }}</media:description>
+          <media:copyright>TBD</media:copyright>
+        </media:content>
         <category>{{ post.position }}</category>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <description>{{ post.content | xml_escape }}</description>
