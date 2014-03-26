@@ -39,4 +39,4 @@ Well, one of my main aims when I start working on a new project is to find stuff
 
 ## Any upcoming changes we should look out for?
 
-New projects in my portfolio. That’s the ultimate aim, isn’t it?
+New projects in my portfolio. That's the ultimate aim, isn't it?

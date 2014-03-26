@@ -39,4 +39,4 @@ My site is built with HTML & CSS, hosted on [GitHub Pages](http://pages.github.c
 
 ## Any upcoming changes we should look out for?
 
-Yes! Follow me ([@nrrrdcore](https://twitter.com/nrrrdcore)) on Twitter and keep an eye out for new blog posts. I'll be writing a lot more in 2014. If there’s something you’re interested in hearing about on my blog, ping me at [j.ann.horvath@gmail.com](mailto:j.ann.horvath@gmail.com).
+Yes! Follow me ([@nrrrdcore](https://twitter.com/nrrrdcore)) on Twitter and keep an eye out for new blog posts. I'll be writing a lot more in 2014. If there's something you're interested in hearing about on my blog, ping me at [j.ann.horvath@gmail.com](mailto:j.ann.horvath@gmail.com).

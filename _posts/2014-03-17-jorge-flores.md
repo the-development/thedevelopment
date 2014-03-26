@@ -13,7 +13,7 @@ categories: posts
 
 ## Let's get to know you first. Tell us about yourself.
 
-My name is Jorge Riera and I was born in Venezuela, I got my Bachelor’s degree in Graphic Design from Universidad de los Andes in Venezuela, surrounded with some great teachers such as Jorge Montero and Ramses Antolines. I have earned a Masters degree in Web Design and on User Interface while working abroad as a junior art director for in-time comunicacion in Madrid.
+My name is Jorge Riera and I was born in Venezuela, I got my Bachelor's degree in Graphic Design from Universidad de los Andes in Venezuela, surrounded with some great teachers such as Jorge Montero and Ramses Antolines. I have earned a Masters degree in Web Design and on User Interface while working abroad as a junior art director for in-time comunicacion in Madrid.
 
 My big dream has always been to travel around the world and that's what I have been doing since I have memory, I have worked in Spain, Thailand, Puerto Rico, New York and now in the Czech Republic. I am already planning to move this year to Russia or China, I haven't decided yet.
 
