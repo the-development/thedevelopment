@@ -2,7 +2,7 @@
 layout: post
 firstname: Matt
 lastname: Soria
-position: Web Dood, Illustrationist, Happy Person.
+position: Web Dood, Illustrationist, Happy Person
 img: mattsoria.jpg
 screenshot: mattsoria.jpg
 twitter: poopsplat

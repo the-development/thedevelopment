@@ -17,13 +17,13 @@ categories: posts
 
 Hi! I'm Paul Stamatiou but at this point I think people more people know me by my Twitter handle, Stammy. I'm a designer at Twitter in San Francisco. Before joining Twitter I co-founded three startups spanning over five years. It was with those startups where I was able hone my design and development skills. Before that I went to Georgia Tech in Atlanta where I studied computational media: a hybrid CS/design degree of sorts.
 
-Most of my day at work is spent designing in Photoshop for mobile. I tend to design for Android first and then iOS for every project, having recently become an [Android addict myself](http://paulstamatiou.com/android-is-better/). 
+Most of my day at work is spent designing in Photoshop for mobile. I tend to design for Android first and then iOS for every project, having recently become an [Android addict myself](http://paulstamatiou.com/android-is-better/).
 
 ## Cool, so what's the story behind your website and its design?
 
-I have been blogging since 2005. It's hard to believe it has been that long! It started out as curiosity about WordPress. A friend in college got me into Gentoo Linux and then PHP. I installed WordPress on my Mac Mini to tinker. Then I registered a domain and just put a few posts online. 
+I have been blogging since 2005. It's hard to believe it has been that long! It started out as curiosity about WordPress. A friend in college got me into Gentoo Linux and then PHP. I installed WordPress on my Mac Mini to tinker. Then I registered a domain and just put a few posts online.
 
-It was when one of my blog posts got a lot of traffic (a guide about setting up BitTorrent) that I became more serious about my site. I kept writing helpful technology-related guides and kept getting traffic - so much so that it killed the hard drive in my Mac Mini in my dorm room and I had to switch to a real host. 
+It was when one of my blog posts got a lot of traffic (a guide about setting up BitTorrent) that I became more serious about my site. I kept writing helpful technology-related guides and kept getting traffic - so much so that it killed the hard drive in my Mac Mini in my dorm room and I had to switch to a real host.
 
 Fast-forward to 2014 and I have probably redesigned my site some 10+ times and published over 1,000 posts. Through my redesigns I've continually simplified the site. It has been a long time since I had a sidebar filled with ads and affiliate banners!
 
@@ -31,7 +31,7 @@ My most recent redesign was  about bigger type and images in my posts. I wanted 
 
 ## What part of your website is your favourite, and why?
 
-That would have to be the [photos section](http://paulstamatiou.com/photos/). It just started out as a place to post single photos here and there but has since evolved into a place where I want to put photo stories -- collections of photos along with text telling the story of the moment, day, trip or whatever it may be. 
+That would have to be the [photos section](http://paulstamatiou.com/photos/). It just started out as a place to post single photos here and there but has since evolved into a place where I want to put photo stories -- collections of photos along with text telling the story of the moment, day, trip or whatever it may be.
 
 I used to share [camera metadata](http://dribbble.com/shots/836966-Finalized-Photo-page/attachments/87570) with each photo: Camera, post-processing software used, aperture, shutter speed and ISO. But I quickly realized that was taking away from the story I wanted to tell. It's with that thought that I have been slowly changing my photos section into something more substantial to share experiences.
 
@@ -53,7 +53,7 @@ I recently moved from Heroku as my host to [S3 static site hosting with CloudFro
 
 ## Any upcoming changes we should look out for?
 
-Yes! I'm in the middle of expanding my photos section to allow for the ability to publish sets of posts from large trips along with automatic preloading for the next post for a seamless browsing experience. The first collection will be comprised of photos from [my Japan trip](http://www.youtube.com/watch?v=8fR4MjImSU0) late last year where I took 5,500+ photos that I'm trying to cull down to about 60 good photos per trip day. I'll also be incorporating video into these pages as well. 
+Yes! I'm in the middle of expanding my photos section to allow for the ability to publish sets of posts from large trips along with automatic preloading for the next post for a seamless browsing experience. The first collection will be comprised of photos from [my Japan trip](http://www.youtube.com/watch?v=8fR4MjImSU0) late last year where I took 5,500+ photos that I'm trying to cull down to about 60 good photos per trip day. I'll also be incorporating video into these pages as well.
 
 I'm a tad worried about what my CloudFront bill will look like if these posts receive any substantial traffic as each post will have several 5-30MB video clips. I had one popular blog post that hit around 500k pageviews that didn't even have many images and it was almost a $200 AWS bill that month.. but I sleep better at night knowing my site is very fast on CloudFront. :)
 
