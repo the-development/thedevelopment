@@ -18,7 +18,7 @@ html, body {
 body {
   color: #222;
   background-color: #fafafa;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
@@ -47,13 +47,80 @@ a:hover {
 
 /*****************************************************************************/
 /*
+/* Home
+/*
+/*****************************************************************************/
+#intro {
+  padding: 1em 2em 1em 2em;
+  line-height: 50px;
+}
+
+#intro p {
+  margin-bottom: 1em;
+}
+
+#intro-tagline {
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+#intro-history {
+  font-size: 1.5em;
+}
+
+#intro-interviews {
+  font-size: 1.5em;
+}
+
+#number-of-interviews {
+  font-size: 1.75em;
+}
+
+.carousel-slide {
+  height: 220px;
+}
+
+.carousel-slide-url {
+  color: #fff;
+}
+
+.carousel-slide-url:hover {
+  
+}
+
+.carousel-slide-caption {
+  position: absolute;
+  bottom: 0;
+  height: 25%;
+  width: 100%;
+  color: #fff;
+  padding: 8px 16px 8px 16px;
+  background-color: rgba(25, 25, 25, 0.5);
+}
+
+.caption-name {
+  font-weight: 600;
+  line-height: normal;
+}
+
+.caption-position {
+  line-height: normal;
+}
+
+#posts-carousel {
+  margin: 0;
+  border: 1px solid #555;
+}
+
+/*****************************************************************************/
+/*
 /* Site
 /*
 /*****************************************************************************/
 
 .site {
   height: 100%;
-  width: 55em;
+  width: 70em;
   line-height: 30px;
   margin: 0 auto;
   margin-top: 2em;
@@ -76,24 +143,14 @@ a:hover {
   opacity: 0.9;
 }
 
-#links {
-  text-align: center;
-  margin-top: 0.5em;
-  letter-spacing: 2px;
-}
 
 #title-text {
   font-size: 3em;
   display: block;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: -5px;
-  color: #222;
-}
-
-.nav-links {
-  font-size: 1.2em;
-  color: #222;
+  letter-spacing: 1px;
+  color: #333;
 }
 
 /*****************************************************************************/
@@ -360,6 +417,7 @@ a:hover {
 
 #archives {
   margin: 0 auto;
+  width: 55em;
 }
 
 #archive {
