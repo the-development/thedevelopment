@@ -1,11 +1,11 @@
 $(document).ready(function() {
   $('#posts-carousel').slick({
     dots: false,
-    infinite: false,
+    infinite: true,
     arrows: false,
     placeholders: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     touchMove: false,
     slidesToScroll: 1,
     autoplay: true,

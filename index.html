@@ -13,10 +13,13 @@ title: Home
   <div id="posts-carousel" class="carousel">
     {% for post in site.categories.posts %}
       <div>
-        <a class="carousel-slide-url" href="{{ post.url }}"><img class="carousel-slide" src="/images/screenshots/{{ post.screenshot }}"></a>
+<!--         <a class="carousel-slide-url" href="{{ post.url }}"><img class="carousel-slide" src="/images/screenshots/{{ post.screenshot }}"></a> -->
+        <div class="carousel-slide" style="background-image: url(/images/screenshots/{{ post.screenshot }}); background-size: cover;">
+         <a class="carousel-slide-url" href="{{ post.url }}"></a>
         <div class="carousel-slide-caption">
           <a class="carousel-slide-url" href="{{ post.url }}"><p class="caption-name">{{ post.firstname }} {{ post.lastname }}</p></a>
           <a class="carousel-slide-url" href="{{ post.url }}"><p class="caption-position">{{ post.position }}</p></a>
+        </div>
         </div>
       </div>
     {% endfor %}
