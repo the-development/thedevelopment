@@ -51,7 +51,7 @@ a:hover {
 /*
 /*****************************************************************************/
 #intro {
-  padding: 1em 2em 1em 2em;
+  padding: 0em 2em 1em 2em;
   line-height: 50px;
 }
 
@@ -60,8 +60,10 @@ a:hover {
 }
 
 #intro-tagline {
-  font-weight: 600;
-  font-size: 2.5em;
+  color: #555;
+  font-weight: 400;
+  font-size: 2em;
+  text-align: center;
 }
 
 #intro-history {
@@ -112,11 +114,11 @@ a:hover {
 }
 
 #posts-carousel {
-  margin: 1em auto;
+  margin: 2em auto;
   height: 430px;
   width: 700px;
-  border: 3px solid #ccc;
-  border-top: 35px solid #ccc;
+  border: 5px solid #aaa;
+  border-top: 35px solid #aaa;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px; 
 }
@@ -136,7 +138,7 @@ a:hover {
 }
 
 #nav {
-  height: 75px;
+  height: 35px;
   width: 100%;
 }
 
