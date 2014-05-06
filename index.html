@@ -6,22 +6,22 @@ title: Home
 <div>
   <div id="intro">
     <p id="intro-tagline">A website about websites.</p>
+
+    <!-- Carousel -->
+    <div id="posts-carousel" class="carousel">
+      {% for post in site.categories.posts %}
+        <div>
+          <div class="carousel-slide" style="background-image: url(/images/screenshots/{{ post.screenshot }}); background-size: cover;">
+            <div class="carousel-slide-caption">
+              <a class="carousel-slide-url" href="{{ post.url }}"><p class="caption-name">{{ post.firstname }} {{ post.lastname }}</p></a>
+              <a class="carousel-slide-url" href="{{ post.url }}"><p class="caption-position">{{ post.position }}</p></a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
     <p id="intro-history">The Development was a website built by <a href="">Jeff</a> and <a href="">Victor</a> in their spare times over December 2013 to May 2014, containing interviews of fellow developers, designers, and artists, on the Internet about their portfolio sites.</p>
     <p id="intro-interviews">We've interviewed a total of <span id="number-of-interviews">32</span> people. Check some of them out below, or the whole list in our <a href="">Archives page</a>! 
-  </div>
-
-  <div id="posts-carousel" class="carousel">
-    {% for post in site.categories.posts %}
-      <div>
-<!--         <a class="carousel-slide-url" href="{{ post.url }}"><img class="carousel-slide" src="/images/screenshots/{{ post.screenshot }}"></a> -->
-        <div class="carousel-slide" style="background-image: url(/images/screenshots/{{ post.screenshot }}); background-size: cover;">
-         <a class="carousel-slide-url" href="{{ post.url }}"></a>
-        <div class="carousel-slide-caption">
-          <a class="carousel-slide-url" href="{{ post.url }}"><p class="caption-name">{{ post.firstname }} {{ post.lastname }}</p></a>
-          <a class="carousel-slide-url" href="{{ post.url }}"><p class="caption-position">{{ post.position }}</p></a>
-        </div>
-        </div>
-      </div>
-    {% endfor %}
   </div>
 </div>

@@ -78,7 +78,9 @@ a:hover {
 
 .carousel-slide {
   width: 100%;
-  height: 100%;
+  height: 392px;
+  display: inline-block;
+  position: relative;
 }
 
 .carousel-slide-url {
@@ -98,11 +100,14 @@ a:hover {
 }
 
 .caption-name {
+  font-size: 2em;
   font-weight: 600;
   line-height: normal;
+  margin-bottom: 0 !IMPORTANT;
 }
 
 .caption-position {
+  font-size: 1.25em;
   line-height: normal;
 }
 
