@@ -117,8 +117,8 @@ a:hover {
   margin: 2em auto;
   height: 430px;
   width: 700px;
-  border: 5px solid #aaa;
-  border-top: 35px solid #aaa;
+  border: 5px solid #bbb;
+  border-top: 35px solid #bbb;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px; 
 }
