@@ -11,14 +11,14 @@ title: Archives
   <div id="archive" class="archives-section">
     {% for post in paginator.posts %}
       <a class="archives-title" href="{{ post.url }}">
-      <div class="archives-item" style="background-image: url(/images/screenshots/{{ post.screenshot }}); background-size: cover;">
-        <div id="archives-caption" class="post-detail">
-          <img class="archives-dp" src="/images/dps/{{ post.img }}">
-          <p class="archives-name">{{ post.title }}</p>
-          <p class="archives-position">{{ post.position }}</p>
-          <p class="archives-date">{{ post.date | date_to_string }}</p>
+        <div class="archives-item" style="background-image: url(/images/screenshots/{{ post.screenshot }}); background-size: cover;">
+          <div id="archives-caption" class="post-detail">
+            <img class="archives-dp" src="/images/dps/{{ post.img }}">
+            <p class="archives-name">{{ post.title }}</p>
+            <p class="archives-position">{{ post.position }}</p>
+            <p class="archives-date">{{ post.date | date_to_string }}</p>
+          </div>
         </div>
-      </div>
       </a>
     {% endfor %}
     <div class="pagination">

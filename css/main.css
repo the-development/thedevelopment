@@ -18,7 +18,7 @@ html, body {
 body {
   color: #222;
   background-color: #fafafa;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
@@ -47,20 +47,98 @@ a:hover {
 
 /*****************************************************************************/
 /*
+/* Home
+/*
+/*****************************************************************************/
+#intro {
+  padding: 0em 2em 1em 2em;
+  line-height: 50px;
+}
+
+#intro p {
+  margin-bottom: 1em;
+}
+
+#intro-tagline {
+  color: #555;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#intro-history {
+  font-size: 1.5em;
+}
+
+#intro-interviews {
+  font-size: 1.5em;
+}
+
+#number-of-interviews {
+  font-size: 1.75em;
+}
+
+.carousel-slide {
+  width: 100%;
+  height: 392px;
+  display: inline-block;
+  position: relative;
+}
+
+.carousel-slide-url {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-slide-caption {
+  position: absolute;
+  bottom: 0;
+  height: 25%;
+  width: 100%;
+  color: #fff;
+  padding: 8px 16px 8px 16px;
+  background-color: rgba(25, 25, 25, 0.55);
+}
+
+.caption-name {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0 !IMPORTANT;
+}
+
+.caption-position {
+  font-size: 1.25em;
+  line-height: normal;
+}
+
+#posts-carousel {
+  margin: 2em auto;
+  height: 430px;
+  width: 700px;
+  border: 5px solid #bbb;
+  border-top: 35px solid #bbb;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px; 
+}
+
+/*****************************************************************************/
+/*
 /* Site
 /*
 /*****************************************************************************/
 
 .site {
   height: 100%;
-  width: 55em;
+  width: 70em;
   line-height: 30px;
   margin: 0 auto;
   margin-top: 2em;
 }
 
 #nav {
-  height: 75px;
+  height: 35px;
   width: 100%;
 }
 
@@ -76,24 +154,14 @@ a:hover {
   opacity: 0.9;
 }
 
-#links {
-  text-align: center;
-  margin-top: 0.5em;
-  letter-spacing: 2px;
-}
 
 #title-text {
-  font-size: 3em;
+  font-size: 2.75em;
   display: block;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: -5px;
-  color: #222;
-}
-
-.nav-links {
-  font-size: 1.2em;
-  color: #222;
+  letter-spacing: 0.5px;
+  color: #333;
 }
 
 /*****************************************************************************/
@@ -360,6 +428,7 @@ a:hover {
 
 #archives {
   margin: 0 auto;
+  width: 55em;
 }
 
 #archive {
