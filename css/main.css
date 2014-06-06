@@ -78,6 +78,32 @@ a:hover {
   font-size: 1.75em;
 }
 
+.buttons {
+  position: relative;
+  left: 195px;
+  top: 3px;
+  z-index: 1;
+}
+
+.button {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red {
+  background-color: #F16544;
+}
+
+.yellow {
+  background-color: #FEBF04;
+}
+
+.green {
+  background-color: #20CB38;
+}
+
 .carousel-slide {
   width: 100%;
   height: 392px;
@@ -114,13 +140,13 @@ a:hover {
 }
 
 #posts-carousel {
-  margin: 2em auto;
+  margin: -42px auto 2em;
   height: 430px;
   width: 700px;
   border: 5px solid #bbb;
   border-top: 35px solid #bbb;
   border-top-right-radius: 5px;
-  border-top-left-radius: 5px; 
+  border-top-left-radius: 5px;
 }
 
 /*****************************************************************************/
