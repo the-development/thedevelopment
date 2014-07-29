@@ -7,3 +7,5 @@ markdown: redcarpet
 pygments: true
 paginate: 8
 paginate_path: "archives/:num"
+exclude:
+  - vendor
