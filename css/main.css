@@ -16,8 +16,8 @@ html, body {
 }
 
 body {
-  color: #222;
-  background-color: #fafafa;
+  color: #333;
+  background-color: #fbfbfb;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
@@ -51,8 +51,10 @@ a:hover {
 /*
 /*****************************************************************************/
 #intro {
-  padding: 0em 2em 1em 2em;
+  padding: 2em 2em 1em 2em;
   line-height: 50px;
+  width: 60em;
+  margin: auto;
 }
 
 #intro p {
@@ -80,7 +82,7 @@ a:hover {
 
 .buttons {
   position: relative;
-  left: 195px;
+  left: 140px;
   top: 3px;
   z-index: 1;
 }
@@ -157,15 +159,16 @@ a:hover {
 
 .site {
   height: 100%;
-  width: 70em;
+  width: 100%;
   line-height: 30px;
   margin: 0 auto;
-  margin-top: 2em;
 }
 
 #nav {
   height: 35px;
   width: 100%;
+  position: relative;
+  z-index: 9999;
 }
 
 #nav a:hover {
@@ -183,11 +186,13 @@ a:hover {
 
 #title-text {
   font-size: 2.75em;
+  font-weight: 600;
   display: block;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: #333;
+  padding-top: 0.75em;
 }
 
 /*****************************************************************************/
@@ -196,29 +201,39 @@ a:hover {
 /*
 /*****************************************************************************/
 
+#post {
+  width: 50em;
+  margin: auto;
+}
+
 #post-screenshot {
+  height: 550px;
+  width: 100%;
+  margin-top: -35px;
   text-align: center;
-  margin-top: 1.25em;
   margin-bottom: 1.75em;
 }
 
-#screenshot {
-  border: 1px solid #ccc;
-  max-width: 100%;
-}
-
 #post-info {
-  text-align: center;
+  display: table;
 }
 
 #dp-container {
   padding-top: 2em;
-  margin-bottom: -1em;
   text-align: center;
+  display: inline-block;
+}
+
+#info-container {
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 2em;
+  padding-left: 2em;
 }
 
 #dp {
-  max-width: 275px;
+  max-width: 225px;
+  border-radius: 3px;
 }
 
 #name {
@@ -251,12 +266,12 @@ a:hover {
 }
 
 .post {
-  width: 85%;
   margin: 0 auto;
   margin-bottom: 5em;
 }
 
 .post h2 {
+  color: #707070;
   font-size: 1.7em;
   margin-top: 2.25em;
   margin-bottom: 1em;

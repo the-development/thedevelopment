@@ -2,30 +2,32 @@
   {{ page.style }}
 </style>
 
+<div id="post-screenshot" style="background: url('/images/screenshots/{{ page.screenshot }}') no-repeat; background-size: cover; background-position: center center;"></div>
+
 <div class="content" id="post">
-  <div id="post-screenshot">
-    <img id="screenshot" src="/images/screenshots/{{ page.screenshot }}">
-  </div>
+
   <div id="post-info">
-    <h1 id="name"><span class="bold">{{ page.firstname }}</span><span class="thin">{{ page.lastname }}</span></h1>
-    <div id="info-links">
-      {% if page.company %}
-        <p id="position">{{ page.position }} at <a href="{{ page.companyurl }}" id="company" class="post-info">{{ page.company }}</a></p>
-      {% elsif page.creation %}
-        <p id="position">{{ page.creator }} of <a href="{{ page.creationurl }}" id="company" class="post-info">{{ page.creation }}</a></p>
-      {% else %}
-        <p id="position">{{ page.position }}</p>
-      {% endif %}
-      <a href="{{ page.website }}" id="website-url" class="post-info">{{ page.website }}</a>
-      {% if page.twitter %}
-        &sdot; <a id="social" href="http://twitter.com/{{ page.twitter }}" id="twitter-url" class="post-info">@{{ page.twitter }}</a>
-      {% endif %}
-
+    <div id="dp-container">
+      <img id="dp" src="/images/dps/{{ page.img }}">
     </div>
-  </div>
-
-  <div id="dp-container">
-    <img id="dp" src="/images/dps/{{ page.img }}">
+  
+    <div id="info-container">
+      <h1 id="name"><span class="bold">{{ page.firstname }}</span><span class="thin">{{ page.lastname }}</span></h1>
+      <div id="info-links">
+        {% if page.company %}
+          <p id="position">{{ page.position }} at <a href="{{ page.companyurl }}" id="company" class="post-info">{{ page.company }}</a></p>
+        {% elsif page.creation %}
+          <p id="position">{{ page.creator }} of <a href="{{ page.creationurl }}" id="company" class="post-info">{{ page.creation }}</a></p>
+        {% else %}
+          <p id="position">{{ page.position }}</p>
+        {% endif %}
+        <a href="{{ page.website }}" id="website-url" class="post-info">{{ page.website }}</a>
+        {% if page.twitter %}
+          &sdot; <a id="social" href="http://twitter.com/{{ page.twitter }}" id="twitter-url" class="post-info">@{{ page.twitter }}</a>
+        {% endif %}
+  
+      </div>
+    </div>
   </div>
 
   <div class="post">
