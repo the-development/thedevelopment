@@ -169,6 +169,9 @@ a:hover {
   width: 100%;
   position: relative;
   z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 #nav a:hover {
@@ -192,7 +195,6 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: #333;
-  padding-top: 0.75em;
 }
 
 /*****************************************************************************/
@@ -207,11 +209,11 @@ a:hover {
 }
 
 #post-screenshot {
-  height: 550px;
+  height: 610px;
   width: 100%;
-  margin-top: -35px;
   text-align: center;
   margin-bottom: 1.75em;
+  margin-top: calc(-35px - 2em);
 }
 
 #post-info {
@@ -392,6 +394,7 @@ a:hover {
   position: relative;
   height: 100%;
   width: 300px;
+  border-radius: 3px;
   text-align: center;
 }
 
@@ -400,6 +403,7 @@ a:hover {
   width: 100%;
   position: absolute;
   color: #fff;
+  border-radius: 3px;
   background-color: rgba(0,0,0,0.5);
 }
 
@@ -408,6 +412,7 @@ a:hover {
   display: block;
   width: 70px;
   margin-top: 30px;
+  border-radius: 3px;
   box-shadow: 0px 0px 25px 4px #444;
 }
 
