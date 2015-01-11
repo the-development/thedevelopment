@@ -10,7 +10,7 @@ title: Archives
   </div>
   <div id="archive" class="archives-section">
     {% for post in paginator.posts %}
-      <a class="archives-title" href="{{ post.url }}">
+      <a class="archives-title" href="{{ site.url }}/{{ post.url }}">
         <div class="archives-item" style="background-image: url({{ site.url }}/images/screenshots/{{ post.screenshot }}); background-size: cover;">
           <div id="archives-caption" class="post-detail">
             <img class="archives-dp" src="{{ site.url }}/images/dps/{{ post.img }}">
