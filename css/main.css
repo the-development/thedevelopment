@@ -169,7 +169,6 @@ a:hover {
   width: 100%;
   position: relative;
   z-index: 9999;
-  background-color: rgba(255, 255, 255, 0.5);
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -204,12 +203,12 @@ a:hover {
 /*****************************************************************************/
 
 #post {
-  width: 50em;
+  width: 55%;
   margin: auto;
 }
 
 #post-screenshot {
-  height: 610px;
+  height: 650px;
   width: 100%;
   text-align: center;
   margin-bottom: 1.75em;
@@ -218,10 +217,10 @@ a:hover {
 
 #post-info {
   display: table;
+  padding-right: 2em;
 }
 
 #dp-container {
-  padding-top: 2em;
   text-align: center;
   display: inline-block;
 }
@@ -229,7 +228,6 @@ a:hover {
 #info-container {
   display: table-cell;
   vertical-align: middle;
-  padding-top: 2em;
   padding-left: 2em;
 }
 
@@ -243,15 +241,15 @@ a:hover {
   display: inline-block;
   font-size: 3em;
   height: 1em;
-  line-height: 1em;
   text-transform: uppercase;
   vertical-align: middle;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 
 #position {
   font-size: 1.35em;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
+  text-transform: lowercase;
 }
 
 #info-links {
