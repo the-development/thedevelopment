@@ -18,8 +18,8 @@ title: Home
         <div>
           <div class="carousel-slide" style="background-image: url({{ site.url }}/images/screenshots/{{ post.screenshot }}); background-size: cover;">
             <div class="carousel-slide-caption">
-              <a class="carousel-slide-url" href="{{ post.url }}"><p class="caption-name">{{ post.firstname }} {{ post.lastname }}</p></a>
-              <a class="carousel-slide-url" href="{{ post.url }}"><p class="caption-position">{{ post.position }}</p></a>
+              <a class="carousel-slide-url" href="{{ site.url }}/{{ post.url }}"><p class="caption-name">{{ post.firstname }} {{ post.lastname }}</p></a>
+              <a class="carousel-slide-url" href="{{ site.url }}/{{ post.url }}"><p class="caption-position">{{ post.position }}</p></a>
             </div>
           </div>
         </div>
@@ -27,6 +27,6 @@ title: Home
     </div>
 
     <p id="intro-history">The Development was a website built by <a href="http://jeffreymartin.ca/">Jeff Martin</a> and <a href="http://victormakcy.com/">Victor Mak</a> in their spare time over December 2013 to May 2014, containing interviews of fellow developers, designers, and artists, on the Internet about their portfolio sites.</p>
-    <p id="intro-interviews">We've interviewed a total of <span id="number-of-interviews">32</span> amazing people. Check them all out in our <a href="/archives/">Archives page</a>!
+    <p id="intro-interviews">We've interviewed a total of <span id="number-of-interviews">32</span> amazing people. Check them all out in our <a href="{{ site.url }}/archives/">Archives page</a>!
   </div>
 </div>
