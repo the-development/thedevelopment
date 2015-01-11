@@ -4,7 +4,7 @@ url: http://thedevelopment.co
 dps_dir: http://thedevelopment.co/images/dps/
 screenshots_dir: http://thedevelopment.co/images/screenshots/
 markdown: redcarpet
-pygments: true
+highlighter: true
 paginate: 8
 paginate_path: "archives/:num"
 exclude:
