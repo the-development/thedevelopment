@@ -1,6 +1,6 @@
 name: The Development
 description: A website about websites
-url: http://the-development.github.io/thedevelopment/
+url: http://the-development.github.io/thedevelopment
 dps_dir: http://the-development.github.io/thedevelopment/images/dps/
 screenshots_dir: http://the-development.github.io/thedevelopment/images/screenshots/
 markdown: redcarpet

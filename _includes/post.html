@@ -50,7 +50,7 @@
     <h3 id="browse-title">More interviews</h3>
     <div class="posts-list">
       {% if page.previous.url %}
-        <a href="{{ site.url }}/{{ page.previous.url }}">
+        <a href="{{ site.url }}{{ page.previous.url }}">
           <div class="post-element" style="background-image: url({{ site.url }}/images/screenshots/{{ page.previous.screenshot }}); background-size: cover;">
             <div class="post-detail">
               <img class="post-dp" src="{{ site.url }}/images/dps/{{ page.previous.img }}">
@@ -60,7 +60,7 @@
         </a>
       {% endif %}
       {% if page.next.url %}
-        <a href="{{ site.url }}/{{ page.next.url }}">
+        <a href="{{ site.url }}{{ page.next.url }}">
           <div class="post-element" style="background-image: url({{ site.url }}/images/screenshots/{{ page.next.screenshot }}); background-size: cover;">
             <div class="post-detail">
               <img class="post-dp" src="{{ site.url }}/images/dps/{{ page.next.img }}">
