@@ -2,15 +2,15 @@
   {{ page.style }}
 </style>
 
-<div id="post-screenshot" style="background: url('/images/screenshots/{{ page.screenshot }}') no-repeat; background-size: cover; background-position: center center;"></div>
+<div id="post-screenshot" style="background: url('{{ site.url }}/images/screenshots/{{ page.screenshot }}') no-repeat; background-size: cover; background-position: center center;"></div>
 
 <div class="content" id="post">
 
   <div id="post-info">
     <div id="dp-container">
-      <img id="dp" src="/images/dps/{{ page.img }}">
+      <img id="dp" src="{{ site.url }}/images/dps/{{ page.img }}">
     </div>
-  
+
     <div id="info-container">
       <h1 id="name"><span class="bold">{{ page.firstname }}</span><span class="thin">{{ page.lastname }}</span></h1>
       <div id="info-links">
@@ -25,7 +25,7 @@
         {% if page.twitter %}
           &sdot; <a id="social" href="http://twitter.com/{{ page.twitter }}" id="twitter-url" class="post-info">@{{ page.twitter }}</a>
         {% endif %}
-  
+
       </div>
     </div>
   </div>
@@ -43,7 +43,7 @@
       <a href="https://twitter.com/intent/tweet?text=Check%20out%20{{ page.firstname }}%20{{ page.lastname }}'s%20interview%20on%20The%20Development%20{{ site.url }}{{ page.url }}" target="_blank">Tweet this interview</a>
     </div>
     <div id="facebook">
-      <a href="http://www.facebook.com/sharer.php?u={{ site.url}}{{ page.url }}" target="_blank">Share on Facebook</a>
+      <a href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">Share on Facebook</a>
     </div>
   </div>
   <div id="browse">
@@ -51,9 +51,9 @@
     <div class="posts-list">
       {% if page.previous.url %}
         <a href="{{ page.previous.url }}">
-          <div class="post-element" style="background-image: url(/images/screenshots/{{ page.previous.screenshot }}); background-size: cover;">
+          <div class="post-element" style="background-image: url({{ site.url }}/images/screenshots/{{ page.previous.screenshot }}); background-size: cover;">
             <div class="post-detail">
-              <img class="post-dp" src="/images/dps/{{ page.previous.img }}">
+              <img class="post-dp" src="{{ site.url }}/images/dps/{{ page.previous.img }}">
               <span class="post-caption">{{ page.previous.firstname }} {{ page.previous.lastname }}</span>
             </div>
           </div>
@@ -61,9 +61,9 @@
       {% endif %}
       {% if page.next.url %}
         <a href="{{ page.next.url }}">
-          <div class="post-element" style="background-image: url(/images/screenshots/{{ page.next.screenshot }}); background-size: cover;">
+          <div class="post-element" style="background-image: url({{ site.url }}/images/screenshots/{{ page.next.screenshot }}); background-size: cover;">
             <div class="post-detail">
-              <img class="post-dp" src="/images/dps/{{ page.next.img }}">
+              <img class="post-dp" src="{{ site.url }}/images/dps/{{ page.next.img }}">
               <span class="post-caption">{{ page.next.firstname }} {{ page.next.lastname }}</span>
             </div>
           </div>
