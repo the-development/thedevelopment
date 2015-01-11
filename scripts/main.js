@@ -4,11 +4,11 @@ $(document).ready(function() {
     infinite: true,
     arrows: false,
     placeholders: true,
-    speed: 500,
+    speed: 300,
     slidesToShow: 1,
-    touchMove: false,
+    touchMove: true,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000
+    autoplaySpeed: 1500
   });
 });
